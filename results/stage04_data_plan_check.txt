@@ -1,0 +1,60 @@
+--- Source register ---
+        Source             Location                  DataType                       Purpose                     Origin       
+    _______________    ________________    ____________________________    __________________________    ____________________
+
+    {'Ballin1988' }    {'Appendix A'  }    {'Component functions'     }    {'Build public reference'}    {'Ballin_reference'}
+    {'Ballin1988' }    {'Figures 6-8' }    {'Simulation results'      }    {'Steady benchmark'      }    {'Ballin_reference'}
+    {'Ballin1988' }    {'Figures 9-10'}    {'Simulation results'      }    {'Transient benchmark'   }    {'Ballin_reference'}
+    {'Hart1984'   }    {'Tables I-II' }    {'Experimental data'       }    {'Lewis comparison'      }    {'NASA_Lewis_tests'}
+    {'Ballin1988' }    {'Tables 2-3'  }    {'Reused experimental data'}    {'Cross-check'           }    {'NASA_Lewis_tests'}
+    {'Novikov2012'}    {'Chapter 4'   }    {'Simulation reproduction' }    {'Method reference'      }    {'Ballin_reference'}
+
+--- Planned experimental case roles ---
+    CaseID            Role         
+    ______    _____________________
+
+      1       "LowPowerBoundary"   
+      2       "CalibrationReserved"
+      3       "ValidationReserved" 
+      4       "CalibrationReserved"
+      5       "ValidationReserved" 
+      6       "CalibrationReserved"
+
+
+Calibration reserved: [2 4 6]
+Validation reserved: [3 5]
+Boundary cases: 1
+Single-point linearization required: 1
+Multi-point linearization required: 0
+
+STAGE04_DATA_PLAN_READY
+--- Source register ---
+        Source             Location                  DataType                       Purpose                     Origin       
+    _______________    ________________    ____________________________    __________________________    ____________________
+
+    {'Ballin1988' }    {'Appendix A'  }    {'Component functions'     }    {'Build public reference'}    {'Ballin_reference'}
+    {'Ballin1988' }    {'Figures 6-8' }    {'Simulation results'      }    {'Steady benchmark'      }    {'Ballin_reference'}
+    {'Ballin1988' }    {'Figures 9-10'}    {'Simulation results'      }    {'Transient benchmark'   }    {'Ballin_reference'}
+    {'Hart1984'   }    {'Tables I-II' }    {'Experimental data'       }    {'Lewis comparison'      }    {'NASA_Lewis_tests'}
+    {'Ballin1988' }    {'Tables 2-3'  }    {'Reused experimental data'}    {'Cross-check'           }    {'NASA_Lewis_tests'}
+    {'Novikov2012'}    {'Chapter 4'   }    {'Simulation reproduction' }    {'Method reference'      }    {'Ballin_reference'}
+
+--- Planned experimental case roles ---
+    CaseID            Role         
+    ______    _____________________
+
+      1       "LowPowerBoundary"   
+      2       "CalibrationReserved"
+      3       "ValidationReserved" 
+      4       "CalibrationReserved"
+      5       "ValidationReserved" 
+      6       "CalibrationReserved"
+
+
+Calibration reserved: [2 4 6]
+Validation reserved: [3 5]
+Boundary cases: 1
+Single-point linearization required: 1
+Multi-point linearization required: 0
+
+STAGE04_DATA_PLAN_READY

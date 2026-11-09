@@ -1,0 +1,89 @@
+{
+  "Updated": "2026-10-29",
+  "ParameterFilesGenerated": true,
+  "NativeMATReadbackPassed": true,
+  "MATLABStaticSyntaxCheckPassed": true,
+  "MATLABParameterCheckExecuted": false,
+  "SimulinkCompilePerformed": false,
+  "SimulinkSimulationRun": false,
+  "DynamicTrimReady": false,
+  "SingleOperatingPointLinearizationPerformed": false,
+  "ExperimentalValidationPassed": false,
+  "ExperimentalFitPerformed": false,
+  "ProtectedFiles": [
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_all_raw.mat",
+      "SHA256": "9f104a6dc4701b8721fc11f25310e9f9c497f45085b44c2803f030bfbf70f1d3",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N065_raw.mat",
+      "SHA256": "f1e28f50dff5a7fc47738e5e38ec4f83ca5faa4ec38f6703718aa21a12994514",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N080_raw.mat",
+      "SHA256": "af2c2e0a2faac0c110b71cbc56277c774321d63121c2f19445d3a9d4c35057e1",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N082_raw.mat",
+      "SHA256": "258fb1b41c1d1139f1e92ea814adf349a02f08a0042625c683a291a53e4fe65e",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N085_raw.mat",
+      "SHA256": "f9dbabfbc49dc4248daf21b3c342aa5aeac9c429ac869ab548544ffd507723ee",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N087_raw.mat",
+      "SHA256": "4218bc1efc95b5a5e4228cad53d4ecabad447881bc87d5de4d266a1bc4627160",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N089_raw.mat",
+      "SHA256": "a1d83b5a1c6c75721becd0f0cc04a0ca087d4cd40ef72d11f57eb1f25872ecfb",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N092_raw.mat",
+      "SHA256": "106777145b12250456e807a326d0aa4c6f0b9824e10f69c70e5c76ae5d17174e",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N094_raw.mat",
+      "SHA256": "d007ef01af819ac4bc86c333df2d40553415d19b697f3d928b8e2d8c44a40e77",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N096_raw.mat",
+      "SHA256": "3e49d9db754a675a79107f1dd61a7d5fefb7eeddaa079f10381adb539c7e2315",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N098_raw.mat",
+      "SHA256": "da735a02e378acc373cbb9167a3b86521d9292e96173b53634734c3cea9e8077",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N100_raw.mat",
+      "SHA256": "ef37e40c7efa0df55c45ace1d75d0ae39e0408359457cf3c123ce384efa5f4e5",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\model\\T700_SS.mdl",
+      "SHA256": "8987312be396873ec81b58a00bb5790ae5c828c97fe74bed3beca0ea4a3838c0",
+      "Unchanged": true
+    },
+    {
+      "Path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\model\\T700_Dyn.mdl",
+      "SHA256": "8994d614a2bbf12e88968b2863a38799641c1d0ae42dcf8f640e9938b980f1ab",
+      "Unchanged": true
+    }
+  ],
+  "ManualMATLABExecutionSelected": true,
+  "RuntimeBlocker": "MATLAB window detected; Computer Use was not approved. User selected manual execution of the generated entry.",
+  "ConstructionReport": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\results\\simsetup_t700\\T700_simsetup_construction_checks.json",
+  "SourceReplayReport": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\results\\simsetup_t700\\T700_source_replay_checks.json"
+}

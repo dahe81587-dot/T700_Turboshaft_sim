@@ -1,0 +1,73 @@
+{
+  "remaining_curves": 10,
+  "remaining_points": 106,
+  "total_curves": 21,
+  "total_points": 172,
+  "native_mat_file_api_round_trip_passed": true,
+  "pixel_reprojection_passed": true,
+  "source_ink_checks_passed": true,
+  "independent_tick_checks_passed": true,
+  "visual_source_review_completed": true,
+  "protected_files": [
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_all_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N065_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N080_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N082_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N085_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N087_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N089_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N092_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N094_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N096_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N098_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N100_raw.mat",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\model\\T700_SS.mdl",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\model\\T700_Dyn.mdl",
+      "unchanged": true
+    }
+  ],
+  "model_modified": false,
+  "simulation_run": false,
+  "matlab_batch_status": "Unavailable: startup/licensing communication error. MAT-file built and verified using native libmat/libmx.",
+  "source_review_note": "All ten original-node overlays were inspected. Plot coordinate/unit conflicts remain explicit metadata for later map conversion."
+}

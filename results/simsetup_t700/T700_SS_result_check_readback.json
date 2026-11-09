@@ -1,0 +1,223 @@
+{
+  "Profile": "ballin_trim1",
+  "Boundary": {
+    "P2_psia": 14.696,
+    "T2_R": 518.67,
+    "P49_psia": 15.071483224689503,
+    "Wf": 0.13230555555555557,
+    "Qload": 229.0,
+    "CaseID": 0.0,
+    "Source": "Ballin_public_reference_trim1",
+    "FAR2": 0.0,
+    "Pacc_g": 0.0,
+    "Pacc_p": 0.0,
+    "Alt": 0.0,
+    "dTamb": 0.0,
+    "Mach": 0.0,
+    "Profile": "ballin_trim1",
+    "OutletTotalPressurePrescribed": true,
+    "ExhaustFactorAlsoImposed": false
+  },
+  "X": [
+    7.893235529765833,
+    2.0084922552414795,
+    4.616371401524335,
+    2.4807109150754565,
+    41504.116117605095,
+    21060.244067001608
+  ],
+  "UnknownOrder": [
+    "W_in",
+    "Rline",
+    "PR_GGT",
+    "PR_FPT",
+    "Ng",
+    "Np"
+  ],
+  "Stations": {
+    "S2": {
+      "W": 7.893235529765833,
+      "ht": 123.95426554149482,
+      "Tt": 518.67,
+      "Pt": 14.696,
+      "FAR": 0.0
+    },
+    "S3": {
+      "W": 7.133881007267389,
+      "ht": 283.94354889698684,
+      "Tt": 1170.9910953276326,
+      "Pt": 182.67463259160147,
+      "FAR": 0.0
+    },
+    "S41": {
+      "W": 7.266186562822945,
+      "ht": 606.7914172334882,
+      "Tt": 2315.4292897428213,
+      "Pt": 172.5968437647129,
+      "FAR": 0.018546083880677845
+    },
+    "S45": {
+      "W": 7.788955663107371,
+      "ht": 423.74507659364787,
+      "Tt": 1676.3778105263889,
+      "Pt": 37.38798912663766,
+      "FAR": 0.017279822598274604
+    },
+    "S49": {
+      "W": 7.788955663107371,
+      "ht": 340.4202983933002,
+      "Tt": 1369.8313375768337,
+      "Pt": 15.071481686732701,
+      "FAR": 0.017279822598274604
+    }
+  },
+  "Diagnostics": {
+    "Compressor": {
+      "Wcin": 7.893209211819389,
+      "WcMap": 7.893209211131507,
+      "s_C_Wc": 1.0,
+      "NcMap": 0.9285037162775189,
+      "PRMap": 12.430228129531946,
+      "Nmech": 41504.116117605095,
+      "Wbleeds": 0.7593545224984442,
+      "Pwrout": -1778.4195885757515
+    },
+    "GGT": {
+      "Wcs1in": 1.3071986385821501,
+      "WcMap": 1.3071985393742345,
+      "s_T_Wc": 1.0,
+      "NcMap": 0.9237941157149708,
+      "PRMap": 4.616371401524335,
+      "Nmech": 41504.116117605095,
+      "Pwrout": 1778.4206189127751
+    },
+    "FPT": {
+      "Wcs1in": 5.504085943510542,
+      "WcMap": 5.504086056442924,
+      "s_T_Wc": 1.0,
+      "NcMap": 0.9942400174429059,
+      "PRMap": 2.4807109150754565,
+      "Nmech": 21060.244067001608,
+      "Pwrout": 918.257994394712
+    }
+  },
+  "SolverConverged": true,
+  "JacFailed": false,
+  "ResidualOrder": [
+    "P49_error",
+    "Compressor_flow",
+    "GGT_flow",
+    "FPT_flow",
+    "Ng_dot_rpm_s",
+    "Np_dot_rpm_s"
+  ],
+  "ResidualSource": "Reconstructed from logged ordinary T-MATS component diagnostics",
+  "InputContextMatches": true,
+  "Residual": [
+    -1.0204415710007613e-07,
+    8.714866428578212e-11,
+    7.589352737386647e-08,
+    -2.051791772796675e-08,
+    0.027979088942291692,
+    -0.008349130993699265
+  ],
+  "ResidualTolerances": [
+    1e-06,
+    1e-06,
+    1e-06,
+    1e-06,
+    0.05,
+    0.05
+  ],
+  "ResidualsPassed": true,
+  "ShaftNetTorque_lbf_ft": [
+    0.0001303833687416045,
+    -5.420777509357322e-05
+  ],
+  "MapCoordinates": {
+    "Compressor": [
+      2.0084922552414795,
+      0.9285037162775189
+    ],
+    "GGT": [
+      4.616371401524335,
+      0.9237941157149708
+    ],
+    "FPT": [
+      2.4807109150754565,
+      0.9942400174429059
+    ]
+  },
+  "MapLimits": {
+    "Compressor": [
+      [
+        1.0,
+        3.0
+      ],
+      [
+        0.65,
+        1.0
+      ]
+    ],
+    "GGT": [
+      [
+        2.8558500754700327,
+        4.999827349932329
+      ],
+      [
+        0.5,
+        1.2
+      ]
+    ],
+    "FPT": [
+      [
+        1.25,
+        3.250254115011039
+      ],
+      [
+        0.5,
+        1.2
+      ]
+    ]
+  },
+  "MapInputsInRange": [
+    true,
+    true,
+    true
+  ],
+  "MapRangesPassed": true,
+  "BleedFlowExpected_lbm_s": [
+    0.07163127230880353,
+    0.16495414990521476,
+    0.5227691002844259
+  ],
+  "TotalBleedLogged_lbm_s": 0.7593545224984442,
+  "CoolingReturnLogged_lbm_s": 0.5227691002844264,
+  "BleedConfigurationPassed": true,
+  "MassError_lbm_s": 1.7763568394002505e-15,
+  "MassTolerance_lbm_s": 1e-06,
+  "MassBalancePassed": true,
+  "EnergyComponentOrder": [
+    "Compressor",
+    "Burner",
+    "GGT",
+    "FPT"
+  ],
+  "EnergyError_Btu_s": [
+    0.0,
+    -2.382876118645072e-10,
+    -5.684341886080801e-10,
+    -2.4585915525676683e-09
+  ],
+  "EnergyRelativeError": [
+    0.0,
+    -5.404499625642074e-14,
+    -1.2892413229108001e-13,
+    -7.449077421659087e-13
+  ],
+  "EnergyRelativeTolerance": 0.001,
+  "EnergyBalancePassed": true,
+  "AllChecksPassed": true,
+  "ExperimentalValidationPassed": false,
+  "DynamicTrimVerified": false
+}

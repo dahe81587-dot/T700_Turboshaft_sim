@@ -1,0 +1,21 @@
+A2: 20 points; projection / ink / tick checks PASS
+A3: 13 points; projection / ink / tick checks PASS
+A4: 3 points; projection / ink / tick checks PASS
+A5: 3 points; projection / ink / tick checks PASS
+A6: 2 points; projection / ink / tick checks PASS
+A7: 6 points; projection / ink / tick checks PASS
+A8: 12 points; projection / ink / tick checks PASS
+A9: 23 points; projection / ink / tick checks PASS
+A10: 18 points; projection / ink / tick checks PASS
+A11: 6 points; projection / ink / tick checks PASS
+Remaining curves: 10
+Remaining points: 106
+Total curves including A1: 21
+Total points including A1: 172
+Native MAT-file API write/read round-trip: PASS
+All 14 protected files unchanged: PASS
+Source overlay visual review: COMPLETE
+Model modified: 0
+Simulation run: 0
+MATLAB batch startup unavailable; native MAT-file API used successfully.
+STAGE06C_REMAINING_CURVES_COMPLETE

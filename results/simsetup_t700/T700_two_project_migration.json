@@ -1,0 +1,362 @@
+{
+  "Backup": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\archive\\two_projects_20261029_110657",
+  "ParameterValuesUnchanged": true,
+  "NativeMATReadbackPassed": true,
+  "ModelsEdited": true,
+  "ModelChanges": [
+    {
+      "Model": "T700_SS",
+      "ParameterChanges": [
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[18]/InstanceData[6]/P[8]",
+          "Before": "1",
+          "After": "MWS.Burner.Eff"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[25]/InstanceData[6]/P[6]",
+          "Before": "MWS.HPC.RlineVec",
+          "After": "MWS.Compressor.RlineVec"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[25]/InstanceData[6]/P[8]",
+          "Before": "MWS.HPC.NcVec",
+          "After": "MWS.Compressor.NcVec"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[25]/InstanceData[6]/P[9]",
+          "Before": "MWS.HPC.WcArray",
+          "After": "MWS.Compressor.WcArray"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[25]/InstanceData[6]/P[10]",
+          "Before": "MWS.HPC.PRArray",
+          "After": "MWS.Compressor.PRArray"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[25]/InstanceData[6]/P[11]",
+          "Before": "MWS.HPC.EffArray",
+          "After": "MWS.Compressor.EffArray"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[25]/InstanceData[6]/P[12]",
+          "Before": "MWS.HPC.s_Nc",
+          "After": "MWS.Compressor.s_Nc"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[25]/InstanceData[6]/P[13]",
+          "Before": "MWS.HPC.s_Wc",
+          "After": "MWS.Compressor.s_Wc"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[25]/InstanceData[6]/P[14]",
+          "Before": "MWS.HPC.s_PR",
+          "After": "MWS.Compressor.s_PR"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[25]/InstanceData[6]/P[15]",
+          "Before": "MWS.HPC.s_eff",
+          "After": "MWS.Compressor.s_eff"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[25]/InstanceData[6]/P[29]",
+          "Before": "MWS.HPC.WcMapSurge",
+          "After": "MWS.Compressor.WcMapSurge"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[25]/InstanceData[6]/P[30]",
+          "Before": "MWS.HPC.PRMapSurge",
+          "After": "MWS.Compressor.PRMapSurge"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[59]/InstanceData[6]/P[6]",
+          "Before": "MWS.HPT.PRVec",
+          "After": "MWS.GGT.PRVec"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[59]/InstanceData[6]/P[7]",
+          "Before": "MWS.HPT.NcVec",
+          "After": "MWS.GGT.NcVec"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[59]/InstanceData[6]/P[8]",
+          "Before": "MWS.HPT.WcArray",
+          "After": "MWS.GGT.WcArray"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[59]/InstanceData[6]/P[9]",
+          "Before": "MWS.HPT.EffArray",
+          "After": "MWS.GGT.EffArray"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[59]/InstanceData[6]/P[10]",
+          "Before": "MWS.HPT.s_Nc",
+          "After": "MWS.GGT.s_Nc"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[59]/InstanceData[6]/P[11]",
+          "Before": "MWS.HPT.s_Wc",
+          "After": "MWS.GGT.s_Wc"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[59]/InstanceData[6]/P[12]",
+          "Before": "MWS.HPT.s_PR",
+          "After": "MWS.GGT.s_PR"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[59]/InstanceData[6]/P[13]",
+          "Before": "MWS.HPT.s_eff",
+          "After": "MWS.GGT.s_eff"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[97]/InstanceData[7]/P[7]",
+          "Before": "MWS.Noz.ATh",
+          "After": "MWS.Nozzle.ATh"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[97]/InstanceData[7]/P[9]",
+          "Before": "MWS.Noz.LossPerc",
+          "After": "MWS.Nozzle.LossPerc"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[97]/InstanceData[7]/P[10]",
+          "Before": "MWS.Noz.TtVec",
+          "After": "MWS.Nozzle.TtVec"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[97]/InstanceData[7]/P[11]",
+          "Before": "MWS.Noz.TGArray",
+          "After": "MWS.Nozzle.TGArray"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[97]/InstanceData[7]/P[12]",
+          "Before": "MWS.Noz.PeQPaVec",
+          "After": "MWS.Nozzle.PeQPaVec"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[97]/InstanceData[7]/P[13]",
+          "Before": "MWS.Noz.CdThArray",
+          "After": "MWS.Nozzle.CdThArray"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[97]/InstanceData[7]/P[14]",
+          "Before": "MWS.Noz.CvArray",
+          "After": "MWS.Nozzle.CvArray"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[97]/InstanceData[7]/P[17]",
+          "Before": "MWS.Noz.FARVec",
+          "After": "MWS.Nozzle.FARVec"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[97]/InstanceData[7]/P[18]",
+          "Before": "MWS.Noz.RArray",
+          "After": "MWS.Nozzle.RArray"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[97]/InstanceData[7]/P[19]",
+          "Before": "MWS.Noz.TtVec",
+          "After": "MWS.Nozzle.TtVec"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[97]/InstanceData[7]/P[20]",
+          "Before": "MWS.Noz.GArray",
+          "After": "MWS.Nozzle.GArray"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[100]/InstanceData[6]/P[6]",
+          "Before": "MWS.Shaft.Jg",
+          "After": "MWS.Shaft.J"
+        },
+        {
+          "Location": "/simulink/systems/system_root.xml/Block[101]/InstanceData[6]/P[6]",
+          "Before": "MWS.Shaft.Jp",
+          "After": "MWS.Shaft1.J"
+        }
+      ],
+      "XMLPartsChecked": 22,
+      "TopologyUnchanged": true,
+      "LoggingUnchanged": true,
+      "BeforeSHA256": "8987312be396873ec81b58a00bb5790ae5c828c97fe74bed3beca0ea4a3838c0",
+      "AfterSHA256": "7f852705522b2ef727e80eacbb50317f3660597e871edb7adcff6034bb2a94bf"
+    },
+    {
+      "Model": "T700_Dyn",
+      "ParameterChanges": [
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[7]/InstanceData[6]/P[8]",
+          "Before": "1",
+          "After": "MWS.Burner.Eff"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[18]/InstanceData[6]/P[6]",
+          "Before": "MWS.HPC.RlineVec",
+          "After": "MWS.Compressor.RlineVec"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[18]/InstanceData[6]/P[8]",
+          "Before": "MWS.HPC.NcVec",
+          "After": "MWS.Compressor.NcVec"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[18]/InstanceData[6]/P[9]",
+          "Before": "MWS.HPC.WcArray",
+          "After": "MWS.Compressor.WcArray"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[18]/InstanceData[6]/P[10]",
+          "Before": "MWS.HPC.PRArray",
+          "After": "MWS.Compressor.PRArray"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[18]/InstanceData[6]/P[11]",
+          "Before": "MWS.HPC.EffArray",
+          "After": "MWS.Compressor.EffArray"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[18]/InstanceData[6]/P[12]",
+          "Before": "MWS.HPC.s_Nc",
+          "After": "MWS.Compressor.s_Nc"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[18]/InstanceData[6]/P[13]",
+          "Before": "MWS.HPC.s_Wc",
+          "After": "MWS.Compressor.s_Wc"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[18]/InstanceData[6]/P[14]",
+          "Before": "MWS.HPC.s_PR",
+          "After": "MWS.Compressor.s_PR"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[18]/InstanceData[6]/P[15]",
+          "Before": "MWS.HPC.s_eff",
+          "After": "MWS.Compressor.s_eff"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[18]/InstanceData[6]/P[29]",
+          "Before": "MWS.HPC.WcMapSurge",
+          "After": "MWS.Compressor.WcMapSurge"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[18]/InstanceData[6]/P[30]",
+          "Before": "MWS.HPC.PRMapSurge",
+          "After": "MWS.Compressor.PRMapSurge"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[67]/InstanceData[6]/P[6]",
+          "Before": "MWS.HPT.PRVec",
+          "After": "MWS.GGT.PRVec"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[67]/InstanceData[6]/P[7]",
+          "Before": "MWS.HPT.NcVec",
+          "After": "MWS.GGT.NcVec"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[67]/InstanceData[6]/P[8]",
+          "Before": "MWS.HPT.WcArray",
+          "After": "MWS.GGT.WcArray"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[67]/InstanceData[6]/P[9]",
+          "Before": "MWS.HPT.EffArray",
+          "After": "MWS.GGT.EffArray"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[67]/InstanceData[6]/P[10]",
+          "Before": "MWS.HPT.s_Nc",
+          "After": "MWS.GGT.s_Nc"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[67]/InstanceData[6]/P[11]",
+          "Before": "MWS.HPT.s_Wc",
+          "After": "MWS.GGT.s_Wc"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[67]/InstanceData[6]/P[12]",
+          "Before": "MWS.HPT.s_PR",
+          "After": "MWS.GGT.s_PR"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[67]/InstanceData[6]/P[13]",
+          "Before": "MWS.HPT.s_eff",
+          "After": "MWS.GGT.s_eff"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[114]/InstanceData[6]/P[7]",
+          "Before": "MWS.Noz.ATh",
+          "After": "MWS.Nozzle.ATh"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[114]/InstanceData[6]/P[9]",
+          "Before": "MWS.Noz.LossPerc",
+          "After": "MWS.Nozzle.LossPerc"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[114]/InstanceData[6]/P[10]",
+          "Before": "MWS.Noz.TtVec",
+          "After": "MWS.Nozzle.TtVec"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[114]/InstanceData[6]/P[11]",
+          "Before": "MWS.Noz.TGArray",
+          "After": "MWS.Nozzle.TGArray"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[114]/InstanceData[6]/P[12]",
+          "Before": "MWS.Noz.PeQPaVec",
+          "After": "MWS.Nozzle.PeQPaVec"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[114]/InstanceData[6]/P[13]",
+          "Before": "MWS.Noz.CdThArray",
+          "After": "MWS.Nozzle.CdThArray"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[114]/InstanceData[6]/P[14]",
+          "Before": "MWS.Noz.CvArray",
+          "After": "MWS.Nozzle.CvArray"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[114]/InstanceData[6]/P[17]",
+          "Before": "MWS.Noz.FARVec",
+          "After": "MWS.Nozzle.FARVec"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[114]/InstanceData[6]/P[18]",
+          "Before": "MWS.Noz.RArray",
+          "After": "MWS.Nozzle.RArray"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[114]/InstanceData[6]/P[19]",
+          "Before": "MWS.Noz.TtVec",
+          "After": "MWS.Nozzle.TtVec"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[114]/InstanceData[6]/P[20]",
+          "Before": "MWS.Noz.GArray",
+          "After": "MWS.Nozzle.GArray"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[117]/InstanceData[6]/P[6]",
+          "Before": "MWS.Shaft.Jg",
+          "After": "MWS.Shaft.J"
+        },
+        {
+          "Location": "/simulink/systems/system_834.xml/Block[118]/InstanceData[6]/P[6]",
+          "Before": "MWS.Shaft.Jp",
+          "After": "MWS.Shaft1.J"
+        }
+      ],
+      "XMLPartsChecked": 25,
+      "TopologyUnchanged": true,
+      "LoggingUnchanged": true,
+      "BeforeSHA256": "8994d614a2bbf12e88968b2863a38799641c1d0ae42dcf8f640e9938b980f1ab",
+      "AfterSHA256": "b542df54e40941b2b433e376332e7bd5a6570648cb6bedf59d1e58a4f0ee3103"
+    }
+  ],
+  "OriginalTurboshaftModelsUnchanged": true,
+  "SimulinkCompilationPerformed": false,
+  "SimulationRun": false,
+  "OutputFormatConversionPerformed": false
+}

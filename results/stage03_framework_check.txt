@@ -1,0 +1,38 @@
+
+LEGACY MODEL: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\Turboshaft_SS.mdl
+
+LEGACY MODEL: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\Turboshaft_Dyn.mdl
+
+MODEL: T700_SS
+FILE: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\T700_SS.mdl
+PreLoadFcn: T700_initialize;
+InitFcn: T700_initialize;
+CloseFcn is empty: 1
+
+MODEL: T700_Dyn
+FILE: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\T700_Dyn.mdl
+PreLoadFcn: T700_initialize;
+InitFcn: T700_initialize;
+CloseFcn is empty: 1
+          Function                                                           File                                                  
+    ____________________    _______________________________________________________________________________________________________
+
+    {'setup_Solve_temp'}    {'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\SimSetup\setup_Solve_temp.m'}
+    {'setup_Inputs'    }    {'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\SimSetup\setup_Inputs.m'    }
+    {'setup_Boundary'  }    {'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\SimSetup\setup_Boundary.m'  }
+    {'setup_HPC'       }    {'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\SimSetup\setup_HPC.m'       }
+    {'setup_FPT'       }    {'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\SimSetup\setup_FPT.m'       }
+    {'setup_Shaft'     }    {'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\SimSetup\setup_Shaft.m'     }
+    {'setup_Noz'       }    {'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\SimSetup\setup_Noz.m'       }
+    {'setup_HPT'       }    {'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\SimSetup\setup_HPT.m'       }
+    {'setup_Burner'    }    {'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\SimSetup\setup_Burner.m'    }
+    {'setup_Duct'      }    {'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\SimSetup\setup_Duct.m'      }
+    {'setup_Inlet'     }    {'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\SimSetup\setup_Inlet.m'     }
+
+
+Reference cases: 6
+Initialization repeatable: 1
+Dynamic trim ready: 0
+T700 parameters applied: 0
+
+STAGE03_FRAMEWORK_READY

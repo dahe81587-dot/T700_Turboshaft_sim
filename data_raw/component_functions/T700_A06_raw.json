@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "figure": "A6",
+  "function_title": "Combustor efficiency",
+  "definition": "eta_b = f6(FAR)",
+  "source_report": "NASA-TM-100991, Ballin, 1988",
+  "source_pdf": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\sources\\A_high_fidelity_real-time_simulation_of_a_small_tu.pdf",
+  "source_pdf_sha256": "55af702919aa809871fcc2035f063d22388ca8d797ae18c7879ac0e4c7cc82e7",
+  "pdf_page": 61,
+  "printed_page": 47,
+  "source_image": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\Ballin_A06_original.png",
+  "source_image_sha256": "1eac4f42e4682bc4d53e9f5c2203c0013433111eaaef72f0a0037a6667939a9e",
+  "image_size": [
+    3168,
+    2440
+  ],
+  "x_name": "FAR",
+  "y_name": "eta_b",
+  "x_unit": "1",
+  "y_unit": "1",
+  "notes": [
+    "The original curve is constant. Store endpoint readings and their mean.",
+    "The labelled FAR range is 0.010 to 0.020; endpoint text is aligned inward."
+  ],
+  "use_for_current_steady": true,
+  "method": "Raster digitization at original plotted cross markers; no curve fitting",
+  "point_count": 2,
+  "points": [
+    [
+      0.009993791050401124,
+      0.9844307195366002,
+      1.8856276118441734e-05,
+      0.00029438949712956575,
+      581.0,
+      1468.0
+    ],
+    [
+      0.020000987279603345,
+      0.9843850372159998,
+      1.8741667804474116e-05,
+      0.0002934936409564326,
+      2178.0,
+      1469.0
+    ]
+  ],
+  "plot_bounds": [
+    0.01,
+    0.02,
+    0.88,
+    1.1
+  ],
+  "columns": [
+    "x",
+    "y",
+    "x_reading_resolution",
+    "y_reading_resolution",
+    "pixel_x",
+    "pixel_y"
+  ],
+  "calibration": {
+    "frame_pixels": [
+      [
+        585.737595316773,
+        2531.599794760216
+      ],
+      [
+        2180.676485905742,
+        2535.374990097354
+      ],
+      [
+        577.8330795360864,
+        289.5222496485193
+      ],
+      [
+        2174.69865935643,
+        286.45776793209956
+      ]
+    ],
+    "frame_border_rms_px": 0.8631785267073121,
+    "pixel_to_data_homography": [
+      [
+        6.306406131117227e-06,
+        -2.7670692101832893e-08,
+        0.006373418000229371
+      ],
+      [
+        1.9153962357880146e-06,
+        -9.870130330808025e-05,
+        1.1285096914941974
+      ],
+      [
+        1.9124072659347645e-06,
+        -5.504678996236918e-07,
+        1.0
+      ]
+    ],
+    "independent_tick_checks": [
+      {
+        "axis": "x",
+        "expected": 0.014,
+        "pixel": [
+          1224.5,
+          2533.111735353005
+        ],
+        "reading": 0.014012244908719305,
+        "error": 1.2244908719304462e-05,
+        "ink_score": 11
+      },
+      {
+        "axis": "y",
+        "expected": 1.0,
+        "pixel": [
+          581.4466712337377,
+          1314.5
+        ],
+        "reading": 0.9994923534324641,
+        "error": -0.0005076465675358799,
+        "ink_score": 10
+      }
+    ]
+  },
+  "marker_arm_support": [
+    1.0,
+    0.8888888888888888
+  ],
+  "reading_resolution_note": "Estimated effect of 3 raster pixels; not experimental error or a confidence interval",
+  "simulation_run": false,
+  "model_modified": false,
+  "created_local": "2026-10-28T21:27:31+08:00",
+  "pressure_convention_review_required": false,
+  "standard_flow_conversion_required": false,
+  "constant_estimate": 0.9844078783763
+}

@@ -1,0 +1,240 @@
+{
+  "source_pdf": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\sources\\A_high_fidelity_real-time_simulation_of_a_small_tu.pdf",
+  "source_pdf_sha256": "55af702919aa809871fcc2035f063d22388ca8d797ae18c7879ac0e4c7cc82e7",
+  "curves": [
+    {
+      "figure": "A2",
+      "point_count": 20,
+      "x_range": [
+        0.9933194687437658,
+        20.005916550752122
+      ],
+      "y_range": [
+        1.306967713321615,
+        2.807693390450337
+      ],
+      "max_tick_error": [
+        0.0131689491561513,
+        0.00045411903855363533
+      ],
+      "source_json": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\T700_A02_raw.json"
+    },
+    {
+      "figure": "A3",
+      "point_count": 13,
+      "x_range": [
+        65.00726851000069,
+        99.98547144461266
+      ],
+      "y_range": [
+        0.00012190063259789014,
+        0.1089425617584764
+      ],
+      "max_tick_error": [
+        0.01421437523009672,
+        1.5758291934918345e-05
+      ],
+      "source_json": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\T700_A03_raw.json"
+    },
+    {
+      "figure": "A4",
+      "point_count": 3,
+      "x_range": [
+        3.0038918061569095,
+        11.999380406129841
+      ],
+      "y_range": [
+        0.008999450094272094,
+        0.010570907694025158
+      ],
+      "max_tick_error": [
+        0.004956379499116537,
+        2.5592530146899967e-06
+      ],
+      "source_json": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\T700_A04_raw.json"
+    },
+    {
+      "figure": "A5",
+      "point_count": 3,
+      "x_range": [
+        2.9945254311807896,
+        12.000508634437875
+      ],
+      "y_range": [
+        0.07790649057751967,
+        0.08509659355347364
+      ],
+      "max_tick_error": [
+        0.012796242952376247,
+        1.166890928143427e-05
+      ],
+      "source_json": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\T700_A05_raw.json"
+    },
+    {
+      "figure": "A6",
+      "point_count": 2,
+      "x_range": [
+        0.009993791050401124,
+        0.020000987279603345
+      ],
+      "y_range": [
+        0.9843850372159998,
+        0.9844307195366002
+      ],
+      "max_tick_error": [
+        1.2244908719304462e-05,
+        0.0005076465675358799
+      ],
+      "source_json": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\T700_A06_raw.json"
+    },
+    {
+      "figure": "A7",
+      "point_count": 6,
+      "x_range": [
+        0.20000690624117942,
+        0.3501584374436792
+      ],
+      "y_range": [
+        24.64159931350852,
+        48.26215969817748
+      ],
+      "max_tick_error": [
+        0.00038046816004760897,
+        0.028063128734217457
+      ],
+      "source_json": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\T700_A07_raw.json"
+    },
+    {
+      "figure": "A8",
+      "point_count": 12,
+      "x_range": [
+        0.30041650478081394,
+        0.8506742530954937
+      ],
+      "y_range": [
+        -1.3177476855607035,
+        33.92043986536585
+      ],
+      "max_tick_error": [
+        0.0004260421456235841,
+        0.061401157159426845
+      ],
+      "source_json": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\T700_A08_raw.json"
+    },
+    {
+      "figure": "A9",
+      "point_count": 23,
+      "x_range": [
+        0.3000021616087227,
+        0.8506102382999403
+      ],
+      "y_range": [
+        0.2616541961200724,
+        0.3720000993720935
+      ],
+      "max_tick_error": [
+        0.0003132334058574271,
+        0.00010678039882933144
+      ],
+      "source_json": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\T700_A09_raw.json"
+    },
+    {
+      "figure": "A10",
+      "point_count": 18,
+      "x_range": [
+        64.98229156837029,
+        100.06266888459703
+      ],
+      "y_range": [
+        1.0209213574940381,
+        1.1239983157775533
+      ],
+      "max_tick_error": [
+        0.06077911597196817,
+        0.0002976202591877808
+      ],
+      "source_json": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\T700_A10_raw.json"
+    },
+    {
+      "figure": "A11",
+      "point_count": 6,
+      "x_range": [
+        64.9325503520245,
+        99.95806807761367
+      ],
+      "y_range": [
+        4.001572086755315,
+        7.506183021776172
+      ],
+      "max_tick_error": [
+        0.023802636214881545,
+        0.01034247969114066
+      ],
+      "source_json": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\T700_A11_raw.json"
+    }
+  ],
+  "curve_count": 10,
+  "point_count": 106,
+  "compressor_A1_user_data_preserved": true,
+  "model_modified": false,
+  "simulation_run": false,
+  "extraction_complete": true,
+  "protected_file_hashes": [
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_all_raw.mat",
+      "sha256": "9f104a6dc4701b8721fc11f25310e9f9c497f45085b44c2803f030bfbf70f1d3"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N065_raw.mat",
+      "sha256": "f1e28f50dff5a7fc47738e5e38ec4f83ca5faa4ec38f6703718aa21a12994514"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N080_raw.mat",
+      "sha256": "af2c2e0a2faac0c110b71cbc56277c774321d63121c2f19445d3a9d4c35057e1"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N082_raw.mat",
+      "sha256": "258fb1b41c1d1139f1e92ea814adf349a02f08a0042625c683a291a53e4fe65e"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N085_raw.mat",
+      "sha256": "f9dbabfbc49dc4248daf21b3c342aa5aeac9c429ac869ab548544ffd507723ee"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N087_raw.mat",
+      "sha256": "4218bc1efc95b5a5e4228cad53d4ecabad447881bc87d5de4d266a1bc4627160"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N089_raw.mat",
+      "sha256": "a1d83b5a1c6c75721becd0f0cc04a0ca087d4cd40ef72d11f57eb1f25872ecfb"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N092_raw.mat",
+      "sha256": "106777145b12250456e807a326d0aa4c6f0b9824e10f69c70e5c76ae5d17174e"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N094_raw.mat",
+      "sha256": "d007ef01af819ac4bc86c333df2d40553415d19b697f3d928b8e2d8c44a40e77"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N096_raw.mat",
+      "sha256": "3e49d9db754a675a79107f1dd61a7d5fefb7eeddaa079f10381adb539c7e2315"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N098_raw.mat",
+      "sha256": "da735a02e378acc373cbb9167a3b86521d9292e96173b53634734c3cea9e8077"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\compressor\\T700_compressor_A1_N100_raw.mat",
+      "sha256": "ef37e40c7efa0df55c45ace1d75d0ae39e0408359457cf3c123ce384efa5f4e5"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\model\\T700_SS.mdl",
+      "sha256": "8987312be396873ec81b58a00bb5790ae5c828c97fe74bed3beca0ea4a3838c0"
+    },
+    {
+      "path": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\model\\T700_Dyn.mdl",
+      "sha256": "8994d614a2bbf12e88968b2863a38799641c1d0ae42dcf8f640e9938b980f1ab"
+    }
+  ]
+}

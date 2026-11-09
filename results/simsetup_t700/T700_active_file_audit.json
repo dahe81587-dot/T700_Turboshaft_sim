@@ -1,0 +1,420 @@
+{
+  "StaticAuditOnly": true,
+  "CompilationPerformed": false,
+  "SimulationRun": false,
+  "Models": {
+    "T700_SS": {
+      "SHA256": "7f852705522b2ef727e80eacbb50317f3660597e871edb7adcff6034bb2a94bf",
+      "XMLPartsParsed": 22,
+      "ReferencedWorkspaceFields": 62,
+      "MissingFields": [],
+      "Components": [
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Name": "Ambient",
+          "Commented": "on",
+          "Parameters": {}
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Name": "BC_Inlet",
+          "Commented": "off",
+          "Parameters": {}
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Name": "Burner",
+          "Commented": "off",
+          "Parameters": {
+            "LHV_M": "MWS.Burner.LHV",
+            "Eff_M": "MWS.Burner.Eff",
+            "dPnormBurner_M": "MWS.Burner.dP"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Name": "Compressor",
+          "Commented": "off",
+          "Parameters": {
+            "X_C_RlineVec_M": "MWS.Compressor.RlineVec",
+            "Y_C_Map_NcVec_M": "MWS.Compressor.NcVec",
+            "T_C_Map_WcArray_M": "MWS.Compressor.WcArray",
+            "T_C_Map_PRArray_M": "MWS.Compressor.PRArray",
+            "T_C_Map_EffArray_M": "MWS.Compressor.EffArray",
+            "s_C_Nc_M": "MWS.Compressor.s_Nc",
+            "s_C_Wc_M": "MWS.Compressor.s_Wc",
+            "s_C_PR_M": "MWS.Compressor.s_PR",
+            "s_C_Eff_M": "MWS.Compressor.s_eff",
+            "X_C_Map_WcSurgeVec_M": "MWS.Compressor.WcMapSurge",
+            "T_C_Map_PRSurgeVec_M": "MWS.Compressor.PRMapSurge"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Name": "Duct",
+          "Commented": "on",
+          "Parameters": {
+            "dP_M": "MWS.Duct.dP"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Name": "FPT",
+          "Commented": "off",
+          "Parameters": {
+            "X_T_Map_PRVec_M": "MWS.FPT.PRVec",
+            "Y_T_Map_NcVec_M": "MWS.FPT.NcVec",
+            "T_T_Map_WcArray_M": "MWS.FPT.WcArray",
+            "T_T_Map_EffArray_M": "MWS.FPT.EffArray",
+            "s_T_Nc_M": "MWS.FPT.s_Nc",
+            "s_T_Wc_M": "MWS.FPT.s_Wc",
+            "s_T_PR_M": "MWS.FPT.s_PR",
+            "s_T_Eff_M": "MWS.FPT.s_eff"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Name": "GGT",
+          "Commented": "off",
+          "Parameters": {
+            "X_T_Map_PRVec_M": "MWS.GGT.PRVec",
+            "Y_T_Map_NcVec_M": "MWS.GGT.NcVec",
+            "T_T_Map_WcArray_M": "MWS.GGT.WcArray",
+            "T_T_Map_EffArray_M": "MWS.GGT.EffArray",
+            "s_T_Nc_M": "MWS.GGT.s_Nc",
+            "s_T_Wc_M": "MWS.GGT.s_Wc",
+            "s_T_PR_M": "MWS.GGT.s_PR",
+            "s_T_Eff_M": "MWS.GGT.s_eff"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Name": "Inlet",
+          "Commented": "on",
+          "Parameters": {
+            "eRambase_M": "MWS.Inlet.eRambase"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Name": "Nozzle",
+          "Commented": "on",
+          "Parameters": {
+            "N_TArea_M": "MWS.Nozzle.ATh",
+            "N_FL_M": "MWS.Nozzle.LossPerc",
+            "X_N_TtVec2_M": "MWS.Nozzle.TtVec",
+            "T_N_TGArray_M": "MWS.Nozzle.TGArray",
+            "X_N_PEQPaVec_M": "MWS.Nozzle.PeQPaVec",
+            "T_N_CdThArray_M": "MWS.Nozzle.CdThArray",
+            "T_N_CvArray_M": "MWS.Nozzle.CvArray",
+            "X_N_FARVec_M": "MWS.Nozzle.FARVec",
+            "T_N_RtArray_M": "MWS.Nozzle.RArray",
+            "Y_N_TtVec_M": "MWS.Nozzle.TtVec",
+            "T_N_MAP_gammaArray_M": "MWS.Nozzle.GArray"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Name": "Shaft",
+          "Commented": "off",
+          "Parameters": {
+            "Shaft_Inertia_M": "MWS.Shaft.J"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Name": "Shaft1",
+          "Commented": "off",
+          "Parameters": {
+            "Shaft_Inertia_M": "MWS.Shaft1.J"
+          }
+        }
+      ],
+      "Logs": [
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "P49_calc",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "P49_error",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "s0",
+          "Commented": "on",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "s2",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "s3",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "s4",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "s5",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "s7",
+          "Commented": "on",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "GGT_Data",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "C_Data",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "FPT_Data",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "s6",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        }
+      ]
+    },
+    "T700_Dyn": {
+      "SHA256": "b542df54e40941b2b433e376332e7bd5a6570648cb6bedf59d1e58a4f0ee3103",
+      "XMLPartsParsed": 25,
+      "ReferencedWorkspaceFields": 54,
+      "MissingFields": [],
+      "Components": [
+        {
+          "Part": "/simulink/systems/system_834.xml",
+          "Name": "Ambient",
+          "Commented": "off",
+          "Parameters": {}
+        },
+        {
+          "Part": "/simulink/systems/system_834.xml",
+          "Name": "Burner",
+          "Commented": "off",
+          "Parameters": {
+            "LHV_M": "MWS.Burner.LHV",
+            "Eff_M": "MWS.Burner.Eff",
+            "dPnormBurner_M": "MWS.Burner.dP"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_834.xml",
+          "Name": "Compressor",
+          "Commented": "off",
+          "Parameters": {
+            "X_C_RlineVec_M": "MWS.Compressor.RlineVec",
+            "Y_C_Map_NcVec_M": "MWS.Compressor.NcVec",
+            "T_C_Map_WcArray_M": "MWS.Compressor.WcArray",
+            "T_C_Map_PRArray_M": "MWS.Compressor.PRArray",
+            "T_C_Map_EffArray_M": "MWS.Compressor.EffArray",
+            "s_C_Nc_M": "MWS.Compressor.s_Nc",
+            "s_C_Wc_M": "MWS.Compressor.s_Wc",
+            "s_C_PR_M": "MWS.Compressor.s_PR",
+            "s_C_Eff_M": "MWS.Compressor.s_eff",
+            "X_C_Map_WcSurgeVec_M": "MWS.Compressor.WcMapSurge",
+            "T_C_Map_PRSurgeVec_M": "MWS.Compressor.PRMapSurge"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_834.xml",
+          "Name": "Duct",
+          "Commented": "off",
+          "Parameters": {
+            "dP_M": "MWS.Duct.dP"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_834.xml",
+          "Name": "FPT",
+          "Commented": "off",
+          "Parameters": {
+            "X_T_Map_PRVec_M": "MWS.FPT.PRVec",
+            "Y_T_Map_NcVec_M": "MWS.FPT.NcVec",
+            "T_T_Map_WcArray_M": "MWS.FPT.WcArray",
+            "T_T_Map_EffArray_M": "MWS.FPT.EffArray",
+            "s_T_Nc_M": "MWS.FPT.s_Nc",
+            "s_T_Wc_M": "MWS.FPT.s_Wc",
+            "s_T_PR_M": "MWS.FPT.s_PR",
+            "s_T_Eff_M": "MWS.FPT.s_eff"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_834.xml",
+          "Name": "GGT",
+          "Commented": "off",
+          "Parameters": {
+            "X_T_Map_PRVec_M": "MWS.GGT.PRVec",
+            "Y_T_Map_NcVec_M": "MWS.GGT.NcVec",
+            "T_T_Map_WcArray_M": "MWS.GGT.WcArray",
+            "T_T_Map_EffArray_M": "MWS.GGT.EffArray",
+            "s_T_Nc_M": "MWS.GGT.s_Nc",
+            "s_T_Wc_M": "MWS.GGT.s_Wc",
+            "s_T_PR_M": "MWS.GGT.s_PR",
+            "s_T_Eff_M": "MWS.GGT.s_eff"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_834.xml",
+          "Name": "Inlet",
+          "Commented": "off",
+          "Parameters": {
+            "eRambase_M": "MWS.Inlet.eRambase"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_834.xml",
+          "Name": "Nozzle",
+          "Commented": "off",
+          "Parameters": {
+            "N_TArea_M": "MWS.Nozzle.ATh",
+            "N_FL_M": "MWS.Nozzle.LossPerc",
+            "X_N_TtVec2_M": "MWS.Nozzle.TtVec",
+            "T_N_TGArray_M": "MWS.Nozzle.TGArray",
+            "X_N_PEQPaVec_M": "MWS.Nozzle.PeQPaVec",
+            "T_N_CdThArray_M": "MWS.Nozzle.CdThArray",
+            "T_N_CvArray_M": "MWS.Nozzle.CvArray",
+            "X_N_FARVec_M": "MWS.Nozzle.FARVec",
+            "T_N_RtArray_M": "MWS.Nozzle.RArray",
+            "Y_N_TtVec_M": "MWS.Nozzle.TtVec",
+            "T_N_MAP_gammaArray_M": "MWS.Nozzle.GArray"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_834.xml",
+          "Name": "Shaft",
+          "Commented": "off",
+          "Parameters": {
+            "Shaft_Inertia_M": "MWS.Shaft.J"
+          }
+        },
+        {
+          "Part": "/simulink/systems/system_834.xml",
+          "Name": "Shaft1",
+          "Commented": "off",
+          "Parameters": {
+            "Shaft_Inertia_M": "MWS.Shaft1.J"
+          }
+        }
+      ],
+      "Logs": [
+        {
+          "Part": "/simulink/systems/system_860.xml",
+          "Variable": "S1",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_860.xml",
+          "Variable": "S2",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_860.xml",
+          "Variable": "S3",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_860.xml",
+          "Variable": "S4",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_860.xml",
+          "Variable": "S5",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_860.xml",
+          "Variable": "S6",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_860.xml",
+          "Variable": "S7",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_860.xml",
+          "Variable": "CompData",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_860.xml",
+          "Variable": "GGTData",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_860.xml",
+          "Variable": "FPTData",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "Plant_Data",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "FAR",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        },
+        {
+          "Part": "/simulink/systems/system_root.xml",
+          "Variable": "Nf_dmd",
+          "Commented": "off",
+          "SaveFormat": "Timeseries"
+        }
+      ]
+    }
+  },
+  "KnownPendingItems": [
+    "PlotSSData.m was retired after plot merge. User must replace the four plot-button OpenFcn calls with PlotData('ss') / PlotData('dyn').",
+    "Nozzle fields exist only as explicit NaN/empty placeholders; active Dyn nozzle is not ready.",
+    "Dyn trim values remain NaN and both outer integrators still share the old initial-value expression.",
+    "Dyn solver/control/boundary topology is still the user-maintained original layout.",
+    "Compressor bleed and turbine cooling switches remain off; renamed maps alone do not implement source cooling.",
+    "SS and Dyn logging wiring is unchanged. PlotData maps s4/S4 to S41, s5/S5 to S45, s6/S6 to S49.",
+    "File parsing and workspace-field coverage do not prove a model can compile or converge."
+  ]
+}

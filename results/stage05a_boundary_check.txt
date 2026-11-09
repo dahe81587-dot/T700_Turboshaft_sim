@@ -1,0 +1,36 @@
+
+Case ID: 4
+P2: 14.090000 psia
+T2: 508.000000 degR
+Wf: 0.1273333333 lbm/s
+Qload magnitude: 206.500000 lbf*ft
+P49 target: 14.600000 psia
+Interface checks passed: 1
+Outlet pressure closed: 0
+Simulation run: 0
+
+STAGE05A_BOUNDARY_INTERFACE_READY
+
+Case ID: 4
+P2: 14.090000 psia
+T2: 508.000000 degR
+Wf: 0.1273333333 lbm/s
+Qload magnitude: 206.500000 lbf*ft
+P49 target: 14.600000 psia
+Interface checks passed: 1
+Outlet pressure closed: 0
+Simulation run: 0
+
+STAGE05A_BOUNDARY_INTERFACE_READY
+
+Case ID: 4
+P2: 14.090000 psia
+T2: 508.000000 degR
+Wf: 0.1273333333 lbm/s
+Qload magnitude: 206.500000 lbf*ft
+P49 target: 14.600000 psia
+Interface checks passed: 1
+Outlet pressure closed: 0
+Simulation run: 0
+
+STAGE05A_BOUNDARY_INTERFACE_READY

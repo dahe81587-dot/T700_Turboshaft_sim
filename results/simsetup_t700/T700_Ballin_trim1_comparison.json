@@ -1,0 +1,95 @@
+{
+  "Profile": "ballin_trim1",
+  "InputSourceMAT": "T700_SS_result_check.mat",
+  "ReferenceReport": "Ballin NASA-TM-100991",
+  "ReferenceTable": "Appendix B Table B.1 trim condition 1",
+  "PDFPage": 67,
+  "PrintedPage": 53,
+  "InternalChecksPassed": true,
+  "IndependentExperimentalValidation": false,
+  "ComparisonRole": "Same-source reference-model consistency; reference conditions also used in adapter construction",
+  "PrescribedInputs": {
+    "P2_psia": 14.696,
+    "T2_R": 518.67,
+    "P49_psia": 15.071483224689503,
+    "Wf": 0.13230555555555557,
+    "Qload": 229.0,
+    "CaseID": 0.0,
+    "Source": "Ballin_public_reference_trim1",
+    "FAR2": 0.0,
+    "Pacc_g": 0.0,
+    "Pacc_p": 0.0,
+    "Alt": 0.0,
+    "dTamb": 0.0,
+    "Mach": 0.0,
+    "Profile": "ballin_trim1",
+    "OutletTotalPressurePrescribed": true,
+    "ExhaustFactorAlsoImposed": false
+  },
+  "Rows": [
+    {
+      "Quantity": "Ng",
+      "Unit": "rpm",
+      "Reference": 41638,
+      "Simulation": 41504.116117605095,
+      "ErrorPercent": -0.3215425390146129,
+      "Note": "Gas-generator mechanical speed"
+    },
+    {
+      "Quantity": "Np",
+      "Unit": "rpm",
+      "Reference": 20895,
+      "Simulation": 21060.244067001608,
+      "ErrorPercent": 0.7908306628456934,
+      "Note": "Power-turbine mechanical speed"
+    },
+    {
+      "Quantity": "Ps3",
+      "Unit": "psia",
+      "Reference": 176.34,
+      "Simulation": 174.636948757571,
+      "ErrorPercent": -0.9657770457236091,
+      "Note": "Estimated from logged Pt3 * Kps3 (0.956); source is static pressure"
+    },
+    {
+      "Quantity": "P41",
+      "Unit": "psia",
+      "Reference": 174.28,
+      "Simulation": 172.5968437647129,
+      "ErrorPercent": -0.9657770457236059,
+      "Note": "GGT inlet total pressure"
+    },
+    {
+      "Quantity": "P45",
+      "Unit": "psia",
+      "Reference": 37.42,
+      "Simulation": 37.38798912663766,
+      "ErrorPercent": -0.08554482459203244,
+      "Note": "FPT inlet total pressure"
+    },
+    {
+      "Quantity": "T41",
+      "Unit": "degR",
+      "Reference": 2292,
+      "Simulation": 2315.4292897428213,
+      "ErrorPercent": 1.022220320367422,
+      "Note": "GGT inlet total temperature"
+    },
+    {
+      "Quantity": "T45",
+      "Unit": "degR",
+      "Reference": 1632,
+      "Simulation": 1676.3778105263889,
+      "ErrorPercent": 2.7192285861757894,
+      "Note": "FPT inlet total temperature"
+    },
+    {
+      "Quantity": "Pshaft",
+      "Unit": "hp",
+      "Reference": 911.1,
+      "Simulation": 918.257994394712,
+      "ErrorPercent": 0.785643112140487,
+      "Note": "Power turbine gas power; steady shaft balance checked"
+    }
+  ]
+}

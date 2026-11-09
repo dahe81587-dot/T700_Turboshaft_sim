@@ -1,0 +1,18 @@
+
+STAGE06A_V2_RUN 2026-10-28 19:57:57
+Fixed printed-frame fit error: PR = 0.00315, Wc = 0.00872 lbm/s
+    Point    NGC_percent    PRstatic    Wc_lbm_s
+    _____    ___________    ________    ________
+
+      1          100         16.887      10.076 
+      2          100         17.191      10.069 
+      3          100         17.588      10.017 
+      4          100         17.995      9.9602 
+      5          100         18.299      9.8722 
+      6          100         18.487      9.7819 
+
+Raw points saved: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\data_raw\compressor\T700_compressor_A1_N100_raw.mat
+Point count: 6
+Map replacement: 0
+Simulation run: 0
+STAGE06A_N100_RAW_POINTS_SAVED

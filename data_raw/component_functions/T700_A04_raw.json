@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "figure": "A4",
+  "function_title": "Power-turbine-balance bleed fraction",
+  "definition": "B2 = f4(WA2c)",
+  "source_report": "NASA-TM-100991, Ballin, 1988",
+  "source_pdf": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\sources\\A_high_fidelity_real-time_simulation_of_a_small_tu.pdf",
+  "source_pdf_sha256": "55af702919aa809871fcc2035f063d22388ca8d797ae18c7879ac0e4c7cc82e7",
+  "pdf_page": 59,
+  "printed_page": 45,
+  "source_image": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\Ballin_A04_original.png",
+  "source_image_sha256": "3cc4934289dd79be50036665c3e7f2a57d64ce3f9fa18a0e35f92f8e1e7763d6",
+  "image_size": [
+    3168,
+    2440
+  ],
+  "x_name": "WA2c",
+  "y_name": "B2",
+  "x_unit": "lbm/s",
+  "y_unit": "1",
+  "notes": [
+    "Piecewise linear: retain both endpoints and the original breakpoint."
+  ],
+  "use_for_current_steady": true,
+  "method": "Raster digitization at original plotted cross markers; no curve fitting",
+  "point_count": 3,
+  "points": [
+    [
+      3.0038918061569095,
+      0.010570907694025158,
+      0.016964192593137195,
+      2.6737337789472376e-06,
+      603.0,
+      538.0
+    ],
+    [
+      5.01318258569104,
+      0.008999450094272094,
+      0.01695086529112988,
+      2.6761606801168486e-06,
+      958.0,
+      2302.0
+    ],
+    [
+      11.999380406129841,
+      0.008999502079331059,
+      0.01685354947023221,
+      2.6684728260967933e-06,
+      2198.0,
+      2310.0
+    ]
+  ],
+  "plot_bounds": [
+    3,
+    12,
+    0.0088,
+    0.0108
+  ],
+  "columns": [
+    "x",
+    "y",
+    "x_reading_resolution",
+    "y_reading_resolution",
+    "pixel_x",
+    "pixel_y"
+  ],
+  "calibration": {
+    "frame_pixels": [
+      [
+        601.9556498230215,
+        2523.0623244190438
+      ],
+      [
+        2197.893834350558,
+        2534.262860644829
+      ],
+      [
+        602.3578761309763,
+        280.9183597369799
+      ],
+      [
+        2200.0659610043535,
+        283.8015700843139
+      ]
+    ],
+    "frame_border_rms_px": 1.178586535181566,
+    "pixel_to_data_homography": [
+      [
+        0.005668132495703779,
+        -4.605217775573829e-07,
+        -0.41032072144018583
+      ],
+      [
+        2.6764050178276917e-08,
+        -8.974602715946679e-07,
+        0.011049650511606163
+      ],
+      [
+        2.3290824575468924e-06,
+        -4.920316935218188e-07,
+        1.0
+      ]
+    ],
+    "independent_tick_checks": [
+      {
+        "axis": "x",
+        "expected": 6,
+        "pixel": [
+          1133.5,
+          2526.7927832848623
+        ],
+        "reading": 6.0049563794991165,
+        "error": 0.004956379499116537,
+        "ink_score": 10
+      },
+      {
+        "axis": "y",
+        "expected": 0.01,
+        "pixel": [
+          602.1973938979016,
+          1175.5
+        ],
+        "reading": 0.01000255925301469,
+        "error": 2.5592530146899967e-06,
+        "ink_score": 10
+      }
+    ]
+  },
+  "marker_arm_support": [
+    1.0,
+    1.0,
+    0.8888888888888888
+  ],
+  "reading_resolution_note": "Estimated effect of 3 raster pixels; not experimental error or a confidence interval",
+  "simulation_run": false,
+  "model_modified": false,
+  "created_local": "2026-10-28T21:27:30+08:00",
+  "pressure_convention_review_required": false,
+  "standard_flow_conversion_required": false
+}

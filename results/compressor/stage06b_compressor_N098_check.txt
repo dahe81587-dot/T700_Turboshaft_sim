@@ -1,0 +1,14 @@
+
+STAGE06B_CURVE_RUN 2026-10-28 20:05:35, NGC = 98%, symbol = 10
+    Point    NGC_percent    PRstatic    Wc_lbm_s
+    _____    ___________    ________    ________
+
+      1          98          15.785       9.627 
+      2          98          16.288      9.6131 
+      3          98          16.692       9.567 
+      4          98          17.094      9.5065 
+      5          98          17.396      9.4209 
+      6          98          17.605      9.2954 
+
+Raw points saved: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\data_raw\compressor\T700_compressor_A1_N098_raw.mat
+STAGE06B_N098_RAW_POINTS_SAVED

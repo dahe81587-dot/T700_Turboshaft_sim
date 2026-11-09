@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "figure": "A5",
+  "function_title": "Impeller leakage and turbine-cooling bleed fraction",
+  "definition": "B3 = f5(WA2c)",
+  "source_report": "NASA-TM-100991, Ballin, 1988",
+  "source_pdf": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\sources\\A_high_fidelity_real-time_simulation_of_a_small_tu.pdf",
+  "source_pdf_sha256": "55af702919aa809871fcc2035f063d22388ca8d797ae18c7879ac0e4c7cc82e7",
+  "pdf_page": 60,
+  "printed_page": 46,
+  "source_image": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\Ballin_A05_original.png",
+  "source_image_sha256": "0c265008af2907a34fb36c24f3c25ef565eb40718249da7b4ab32e4e3827c09b",
+  "image_size": [
+    3168,
+    2440
+  ],
+  "x_name": "WA2c",
+  "y_name": "B3",
+  "x_unit": "lbm/s",
+  "y_unit": "1",
+  "notes": [
+    "Piecewise linear: retain both endpoints and the original breakpoint."
+  ],
+  "use_for_current_steady": true,
+  "method": "Raster digitization at original plotted cross markers; no curve fitting",
+  "point_count": 3,
+  "points": [
+    [
+      2.9945254311807896,
+      0.08509659355347364,
+      0.01701366924594261,
+      1.2021978559470514e-05,
+      478.0,
+      538.0
+    ],
+    [
+      8.299272457772219,
+      0.08459896176074654,
+      0.01695271981230384,
+      1.2002831182786333e-05,
+      1415.0,
+      668.0
+    ],
+    [
+      12.000508634437875,
+      0.07790649057751967,
+      0.01693871247788792,
+      1.2029786018163957e-05,
+      2068.0,
+      2344.0
+    ]
+  ],
+  "plot_bounds": [
+    3,
+    12,
+    0.077,
+    0.086
+  ],
+  "columns": [
+    "x",
+    "y",
+    "x_reading_resolution",
+    "y_reading_resolution",
+    "pixel_x",
+    "pixel_y"
+  ],
+  "calibration": {
+    "frame_pixels": [
+      [
+        478.9520374193897,
+        2554.1477662720495
+      ],
+      [
+        2067.5272053477797,
+        2570.0034546520915
+      ],
+      [
+        478.9668186636421,
+        312.5120626321864
+      ],
+      [
+        2071.3350795476404,
+        321.3244470056662
+      ]
+    ],
+    "frame_border_rms_px": 1.1310485701625634,
+    "pixel_to_data_homography": [
+      [
+        0.005679314007439414,
+        -3.142385713426582e-06,
+        0.2826460601111489
+      ],
+      [
+        1.9339688290323672e-07,
+        -4.099038437768936e-06,
+        0.08724188861873962
+      ],
+      [
+        1.990891877194523e-06,
+        -1.059931823029043e-06,
+        1.0
+      ]
+    ],
+    "independent_tick_checks": [
+      {
+        "axis": "x",
+        "expected": 8,
+        "pixel": [
+          1358.0,
+          2562.92161018399
+        ],
+        "reading": 7.987203757047624,
+        "error": -0.012796242952376247,
+        "ink_score": 8
+      },
+      {
+        "axis": "y",
+        "expected": 0.083,
+        "pixel": [
+          478.9619029499641,
+          1058.0
+        ],
+        "reading": 0.08301166890928144,
+        "error": 1.166890928143427e-05,
+        "ink_score": 7
+      }
+    ]
+  },
+  "marker_arm_support": [
+    0.8888888888888888,
+    1.0,
+    0.8888888888888888
+  ],
+  "reading_resolution_note": "Estimated effect of 3 raster pixels; not experimental error or a confidence interval",
+  "simulation_run": false,
+  "model_modified": false,
+  "created_local": "2026-10-28T21:27:30+08:00",
+  "pressure_convention_review_required": false,
+  "standard_flow_conversion_required": false
+}

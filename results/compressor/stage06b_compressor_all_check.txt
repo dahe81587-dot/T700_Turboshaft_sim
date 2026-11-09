@@ -1,0 +1,22 @@
+
+STAGE06B_SUMMARY 2026-10-28 20:11:37
+    NGC_percent    OriginalSymbol    PointCount
+    ___________    ______________    __________
+
+         65               1              6     
+         80               2              6     
+         82               3              6     
+         85               4              6     
+         87               5              6     
+         89               6              6     
+         92               7              6     
+         94               8              6     
+         96               9              6     
+         98              10              6     
+        100              11              6     
+
+Curve count: 11
+Point count: 66
+Rectangular map created: 0
+Simulation run: 0
+STAGE06B_A1_ALL_RAW_POINTS_SAVED

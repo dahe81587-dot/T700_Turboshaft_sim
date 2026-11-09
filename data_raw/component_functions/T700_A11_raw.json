@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "figure": "A11",
+  "function_title": "Station-4.1 heat-sink coefficient",
+  "definition": "tau41_sign = f_hs(NGc_percent)",
+  "source_report": "NASA-TM-100991, Ballin, 1988",
+  "source_pdf": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\sources\\A_high_fidelity_real-time_simulation_of_a_small_tu.pdf",
+  "source_pdf_sha256": "55af702919aa809871fcc2035f063d22388ca8d797ae18c7879ac0e4c7cc82e7",
+  "pdf_page": 66,
+  "printed_page": 52,
+  "source_image": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\Ballin_A11_original.png",
+  "source_image_sha256": "4fb984654e4663b9da36a04ac8ec2bd3fb6d40540d926950f3467839ee98c1fd",
+  "image_size": [
+    3168,
+    2440
+  ],
+  "x_name": "NGc_percent",
+  "y_name": "tau41_sign",
+  "x_unit": "%",
+  "y_unit": "as used in Eq.53",
+  "notes": [
+    "Optional heat-sink data, not enabled in either model by this extraction.",
+    "This is a coefficient in Eq.53; do not treat it as a standalone time constant."
+  ],
+  "use_for_current_steady": false,
+  "method": "Raster digitization at original plotted cross markers; no curve fitting",
+  "point_count": 6,
+  "points": [
+    [
+      64.9325503520245,
+      4.00196291049247,
+      0.06629117538234652,
+      0.006046671227191158,
+      453.0,
+      2279.0
+    ],
+    [
+      69.96858658831505,
+      4.001572086755315,
+      0.06623724844608603,
+      0.0060442226800563326,
+      681.0,
+      2281.0
+    ],
+    [
+      75.08540081855278,
+      5.760977452047902,
+      0.06609113253182386,
+      0.006025070198511173,
+      913.0,
+      1408.0
+    ],
+    [
+      80.05963015176079,
+      6.209381797785337,
+      0.06601466182014804,
+      0.006018409697118976,
+      1139.0,
+      1186.0
+    ],
+    [
+      84.97417092283064,
+      7.506183021776172,
+      0.06589486656714882,
+      0.006003764482481522,
+      1363.0,
+      540.0
+    ],
+    [
+      99.95806807761367,
+      7.504766398015221,
+      0.06573497460446731,
+      0.005996501634916385,
+      2046.0,
+      544.0
+    ]
+  ],
+  "plot_bounds": [
+    65,
+    100,
+    3.5,
+    8.0
+  ],
+  "columns": [
+    "x",
+    "y",
+    "x_reading_resolution",
+    "y_reading_resolution",
+    "pixel_x",
+    "pixel_y"
+  ],
+  "calibration": {
+    "frame_pixels": [
+      [
+        456.1884305061408,
+        2527.9741155594033
+      ],
+      [
+        2043.9934148533462,
+        2541.254704531796
+      ],
+      [
+        454.96576589464865,
+        289.17185575621045
+      ],
+      [
+        2048.400183436109,
+        296.15156687866835
+      ]
+    ],
+    "frame_border_rms_px": 1.8250324810432534,
+    "pixel_to_data_homography": [
+      [
+        0.022151491256222827,
+        -0.00011447963756929434,
+        54.978156035542916
+      ],
+      [
+        2.3072461508753087e-05,
+        -0.0020162469122654426,
+        8.575402765025338
+      ],
+      [
+        1.786992143003195e-06,
+        -1.5760861815908603e-06,
+        1.0
+      ]
+    ],
+    "independent_tick_checks": [
+      {
+        "axis": "x",
+        "expected": 80,
+        "pixel": [
+          1134.5,
+          2533.6475938759927
+        ],
+        "reading": 79.97619736378512,
+        "error": -0.023802636214881545,
+        "ink_score": 9
+      },
+      {
+        "axis": "y",
+        "expected": 6.0,
+        "pixel": [
+          455.50742747612094,
+          1281.0
+        ],
+        "reading": 6.010342479691141,
+        "error": 0.01034247969114066,
+        "ink_score": 9
+      }
+    ]
+  },
+  "marker_arm_support": [
+    0.8888888888888888,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.8888888888888888
+  ],
+  "reading_resolution_note": "Estimated effect of 3 raster pixels; not experimental error or a confidence interval",
+  "simulation_run": false,
+  "model_modified": false,
+  "created_local": "2026-10-28T21:27:33+08:00",
+  "pressure_convention_review_required": false,
+  "standard_flow_conversion_required": false
+}

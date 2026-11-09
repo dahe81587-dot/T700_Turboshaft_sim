@@ -1,0 +1,15 @@
+
+STAGE06B_CURVE_RUN 2026-10-28 20:10:38, NGC = 82%, symbol = 3
+[警告: 导出的图像显示了坐标区工具栏。要从图像中删除坐标区工具栏，请再次导出。] 
+    Point    NGC_percent    PRstatic    Wc_lbm_s
+    _____    ___________    ________    ________
+
+      1          82          6.3569       5.289 
+      2          82          6.6063      5.2687 
+      3          82          6.8207      5.2239 
+      4          82          7.0392      5.1571 
+      5          82          7.2288      5.0633 
+      6          82          7.3812      4.9304 
+
+Raw points saved: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\data_raw\compressor\T700_compressor_A1_N082_raw.mat
+STAGE06B_N082_RAW_POINTS_SAVED

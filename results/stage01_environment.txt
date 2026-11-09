@@ -1,0 +1,77 @@
+
+fprintf('\n===== MATLAB 版本 =====\n');
+
+===== MATLAB 版本 =====
+version
+
+ans =
+
+    '24.1.0.3303086 (R2024a) Update 9'
+
+
+fprintf('\n===== Simulink 版本 =====\n');
+
+===== Simulink 版本 =====
+ver('simulink')
+------------------------------------------------------------------------------------------------
+MATLAB 版本: 24.1.0.3303086 (R2024a) Update 9
+MATLAB 许可证编号: 40684381
+操作系统: Microsoft Windows 11 家庭版 中文版 Version 10.0 (Build 26200)
+Java 版本: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+------------------------------------------------------------------------------------------------
+Simulink                                              版本 24.1             (R2024a)
+
+fprintf('\n===== 当前工作目录 =====\n');
+
+===== 当前工作目录 =====
+pwd
+
+ans =
+
+    'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model'
+
+
+fprintf('\n===== T-MATS 绘图函数位置 =====\n');
+
+===== T-MATS 绘图函数位置 =====
+which TMATS.TDplot -all
+C:\Users\xie jinao\AppData\Roaming\MathWorks\MATLAB Add-Ons\Collections\nasa_T-MATS_24b\TMATS_Library\MATLAB_Scripts\+TMATS\TDplot.m  % static method or namespace function
+
+fprintf('\n===== 压气机库位置 =====\n');
+
+===== 压气机库位置 =====
+which Lib_Turbo_Compressor_TMATS -all
+C:\Users\xie jinao\AppData\Roaming\MathWorks\MATLAB Add-Ons\Collections\nasa_T-MATS_24b\TMATS_Library\Lib_Turbo_Compressor_TMATS.mdl  % 模块图已加载
+
+fprintf('\n===== 涡轮库位置 =====\n');
+
+===== 涡轮库位置 =====
+which Lib_Turbo_Turbine_TMATS -all
+C:\Users\xie jinao\AppData\Roaming\MathWorks\MATLAB Add-Ons\Collections\nasa_T-MATS_24b\TMATS_Library\Lib_Turbo_Turbine_TMATS.slx  % 模块图已加载
+
+fprintf('\n===== 转轴库位置 =====\n');
+
+===== 转轴库位置 =====
+which Lib_Turbo_Shaft_TMATS -all
+C:\Users\xie jinao\AppData\Roaming\MathWorks\MATLAB Add-Ons\Collections\nasa_T-MATS_24b\TMATS_Library\Lib_Turbo_Shaft_TMATS.mdl  % 模块图已加载
+
+fprintf('\n===== 稳态求解器库位置 =====\n');
+
+===== 稳态求解器库位置 =====
+which Lib_Solve_SSNRSolverJC_TMATS -all
+C:\Users\xie jinao\AppData\Roaming\MathWorks\MATLAB Add-Ons\Collections\nasa_T-MATS_24b\TMATS_Library\Lib_Solve_SSNRSolverJC_TMATS.mdl
+
+fprintf('\n===== 稳态模型位置 =====\n');
+
+===== 稳态模型位置 =====
+which Turboshaft_SS -all
+E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\Turboshaft_SS.mdl
+
+fprintf('\n===== 动态模型位置 =====\n');
+
+===== 动态模型位置 =====
+which Turboshaft_Dyn -all
+E:\postgraduate\09_Turboshaft\06_simulink\example\Turboshaft\Turboshaft_ss\Turboshaft_Dyn.mdl  % 模块图已加载
+E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\Turboshaft_Dyn.mdl     % Shadowed
+
+diary off;

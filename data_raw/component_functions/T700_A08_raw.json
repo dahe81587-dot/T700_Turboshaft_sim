@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "figure": "A8",
+  "function_title": "Power-turbine energy parameter",
+  "definition": "DeltaH_PT/theta45 = f8(P49/P45)",
+  "source_report": "NASA-TM-100991, Ballin, 1988",
+  "source_pdf": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\sources\\A_high_fidelity_real-time_simulation_of_a_small_tu.pdf",
+  "source_pdf_sha256": "55af702919aa809871fcc2035f063d22388ca8d797ae18c7879ac0e4c7cc82e7",
+  "pdf_page": 63,
+  "printed_page": 49,
+  "source_image": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\Ballin_A08_original.png",
+  "source_image_sha256": "9b585692c851bd3fb57402049821271e92144a85a62f6b5e4257438e71bbce90",
+  "image_size": [
+    3168,
+    2440
+  ],
+  "x_name": "P49_over_P45",
+  "y_name": "DeltaH_PT_over_theta45",
+  "x_unit": "1",
+  "y_unit": "Btu/lbm",
+  "notes": [
+    "theta45 is defined by equation 31.",
+    "The negative tail is present in the source and is not clipped."
+  ],
+  "use_for_current_steady": true,
+  "method": "Raster digitization at original plotted cross markers; no curve fitting",
+  "point_count": 12,
+  "points": [
+    [
+      0.30041650478081394,
+      33.92043986536585,
+      0.0010389489648471306,
+      0.06021491977924143,
+      570.0,
+      592.0
+    ],
+    [
+      0.3499031433789996,
+      30.294167686976692,
+      0.0010381222100717125,
+      0.060193832863621566,
+      714.0,
+      772.0
+    ],
+    [
+      0.40003340285816225,
+      26.570222306077536,
+      0.0010372854694076228,
+      0.06017252277000651,
+      860.0,
+      957.0
+    ],
+    [
+      0.4504941539146226,
+      23.089697182447274,
+      0.0010364412628366404,
+      0.06015079145319291,
+      1007.0,
+      1130.0
+    ],
+    [
+      0.5002743912989629,
+      20.113102946945187,
+      0.0010356048742731216,
+      0.06012887579375459,
+      1152.0,
+      1278.0
+    ],
+    [
+      0.5503625710151825,
+      17.15881914962157,
+      0.001034763304532893,
+      0.06010678087525534,
+      1298.0,
+      1425.0
+    ],
+    [
+      0.6004171522777941,
+      14.266948543743748,
+      0.0010339221250128539,
+      0.0600846365944534,
+      1444.0,
+      1569.0
+    ],
+    [
+      0.6500839820969297,
+      11.337355100255255,
+      0.0010330883124454182,
+      0.06006272520804856,
+      1589.0,
+      1715.0
+    ],
+    [
+      0.7000482819846754,
+      8.329970139088662,
+      0.001032250358707576,
+      0.06004074402228987,
+      1735.0,
+      1865.0
+    ],
+    [
+      0.7496237058062143,
+      5.264950446026391,
+      0.0010314199532915902,
+      0.06001901696551126,
+      1880.0,
+      2018.0
+    ],
+    [
+      0.8005211555935754,
+      2.0622827630608476,
+      0.0010305682271514183,
+      0.059996767325424916,
+      2029.0,
+      2178.0
+    ],
+    [
+      0.8506742530954937,
+      -1.3177476855607035,
+      0.0010297312102577338,
+      0.0599750748970973,
+      2176.0,
+      2347.0
+    ]
+  ],
+  "plot_bounds": [
+    0.3,
+    0.85,
+    -5,
+    40
+  ],
+  "columns": [
+    "x",
+    "y",
+    "x_reading_resolution",
+    "y_reading_resolution",
+    "pixel_x",
+    "pixel_y"
+  ],
+  "calibration": {
+    "frame_pixels": [
+      [
+        580.1014678002166,
+        2530.397663825779
+      ],
+      [
+        2175.0611630473163,
+        2531.1826171086236
+      ],
+      [
+        567.030947327619,
+        289.10784869940477
+      ],
+      [
+        2162.5241614470942,
+        279.55865030569265
+      ]
+    ],
+    "frame_border_rms_px": 1.2129130362095788,
+    "pixel_to_data_homography": [
+      [
+        0.0003477163356594932,
+        -2.0774390146589837e-06,
+        0.10391106577406514
+      ],
+      [
+        -4.570469043982992e-06,
+        -0.020108752808049052,
+        45.87970786975807
+      ],
+      [
+        2.8934726638107037e-06,
+        -1.8241755035612592e-07,
+        1.0
+      ]
+    ],
+    "independent_tick_checks": [
+      {
+        "axis": "x",
+        "expected": 0.55,
+        "pixel": [
+          1304.5,
+          2530.754173778747
+        ],
+        "reading": 0.5504260421456236,
+        "error": 0.0004260421456235841,
+        "ink_score": 10
+      },
+      {
+        "axis": "y",
+        "expected": 20,
+        "pixel": [
+          572.859098370634,
+          1288.5
+        ],
+        "reading": 19.938598842840573,
+        "error": -0.061401157159426845,
+        "ink_score": 7
+      }
+    ]
+  },
+  "marker_arm_support": [
+    0.8888888888888888,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.8888888888888888,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "reading_resolution_note": "Estimated effect of 3 raster pixels; not experimental error or a confidence interval",
+  "simulation_run": false,
+  "model_modified": false,
+  "created_local": "2026-10-28T21:27:31+08:00",
+  "pressure_convention_review_required": false,
+  "standard_flow_conversion_required": false
+}

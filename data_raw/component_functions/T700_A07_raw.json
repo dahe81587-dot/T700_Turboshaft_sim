@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "figure": "A7",
+  "function_title": "Gas-generator-turbine energy parameter",
+  "definition": "DeltaH_GT/theta41 = f7(P45/P41)",
+  "source_report": "NASA-TM-100991, Ballin, 1988",
+  "source_pdf": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\sources\\A_high_fidelity_real-time_simulation_of_a_small_tu.pdf",
+  "source_pdf_sha256": "55af702919aa809871fcc2035f063d22388ca8d797ae18c7879ac0e4c7cc82e7",
+  "pdf_page": 62,
+  "printed_page": 48,
+  "source_image": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\data_raw\\component_functions\\Ballin_A07_original.png",
+  "source_image_sha256": "c8bd68b1fce97407fecb961e43083d87de03b12042a49d94af4554e589ac0d42",
+  "image_size": [
+    3168,
+    2440
+  ],
+  "x_name": "P45_over_P41",
+  "y_name": "DeltaH_GT_over_theta41",
+  "x_unit": "1",
+  "y_unit": "Btu/lbm",
+  "notes": [
+    "theta41 is the squared-critical-velocity ratio in equation 25.",
+    "The abscissa is outlet/inlet pressure, not the usual expansion ratio."
+  ],
+  "use_for_current_steady": true,
+  "method": "Raster digitization at original plotted cross markers; no curve fitting",
+  "point_count": 6,
+  "points": [
+    [
+      0.20000690624117942,
+      48.26215969817748,
+      0.0002840098153116255,
+      0.04341003795573073,
+      458.0,
+      585.0
+    ],
+    [
+      0.21500284883905732,
+      40.37299094215285,
+      0.00028392667055759935,
+      0.0434418749102079,
+      611.0,
+      1132.0
+    ],
+    [
+      0.22000824238477232,
+      39.09465250774586,
+      0.00028386986837650174,
+      0.04344372826619036,
+      663.0,
+      1221.0
+    ],
+    [
+      0.22488500233569678,
+      38.32308491045358,
+      0.00028380437375347123,
+      0.04344246447674749,
+      714.0,
+      1275.0
+    ],
+    [
+      0.23004465920215156,
+      37.552271539046394,
+      0.0002837341123220205,
+      0.04344083218635575,
+      768.0,
+      1329.0
+    ],
+    [
+      0.3501584374436792,
+      24.64159931350852,
+      0.0002819933183398904,
+      0.043370126449435276,
+      2032.0,
+      2241.0
+    ]
+  ],
+  "plot_bounds": [
+    0.2,
+    0.35,
+    20,
+    52.5
+  ],
+  "columns": [
+    "x",
+    "y",
+    "x_reading_resolution",
+    "y_reading_resolution",
+    "pixel_x",
+    "pixel_y"
+  ],
+  "calibration": {
+    "frame_pixels": [
+      [
+        438.7618351012436,
+        2533.7646129734353
+      ],
+      [
+        2026.60082771416,
+        2561.8648803267693
+      ],
+      [
+        460.8078896564386,
+        292.06921935369905
+      ],
+      [
+        2052.660483047303,
+        310.25459216618543
+      ]
+    ],
+    "frame_border_rms_px": 1.0688286666445062,
+    "pixel_to_data_homography": [
+      [
+        9.52946588886215e-05,
+        7.184755185403376e-07,
+        0.1560745995711968
+      ],
+      [
+        0.0003130376550221164,
+        -0.014531025960726132,
+        56.651521075980945
+      ],
+      [
+        2.8128386580825317e-06,
+        -1.065857544237935e-06,
+        1.0
+      ]
+    ],
+    "independent_tick_checks": [
+      {
+        "axis": "x",
+        "expected": 0.25,
+        "pixel": [
+          970.5,
+          2543.174877279288
+        ],
+        "reading": 0.2503804681600476,
+        "error": 0.00038046816004760897,
+        "ink_score": 9
+      },
+      {
+        "axis": "y",
+        "expected": 37.5,
+        "pixel": [
+          450.60031253433203,
+          1330.0
+        ],
+        "reading": 37.47193687126578,
+        "error": -0.028063128734217457,
+        "ink_score": 8
+      }
+    ]
+  },
+  "marker_arm_support": [
+    0.8888888888888888,
+    1.0,
+    1.0,
+    0.8888888888888888,
+    0.8888888888888888,
+    0.8888888888888888
+  ],
+  "reading_resolution_note": "Estimated effect of 3 raster pixels; not experimental error or a confidence interval",
+  "simulation_run": false,
+  "model_modified": false,
+  "created_local": "2026-10-28T21:27:31+08:00",
+  "pressure_convention_review_required": false,
+  "standard_flow_conversion_required": false
+}
