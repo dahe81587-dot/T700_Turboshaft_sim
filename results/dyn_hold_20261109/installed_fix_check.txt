@@ -1,0 +1,20 @@
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+BEFORE_MaxIters=5
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+[警告: Block diagram 'T700_Dyn' contains disabled library links. Use Model Advisor to find the disabled links in non-library models.  The diagram has been saved but may not contain
+what you intended.
+建议的操作:
+    • You can restore or push the disabled links in the model using the Library Link Tool. - 打开
+] 
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+INSTALLED_MaxIters=200
+INSTALLED_COMPILE_PASS

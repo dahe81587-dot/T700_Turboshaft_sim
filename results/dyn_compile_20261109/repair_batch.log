@@ -1,0 +1,35 @@
+Simulink cache: E:\postgraduate\09_Turboshaft\06_simulink\cache
+Simulink code:  E:\postgraduate\09_Turboshaft\06_simulink\cache\codegen
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+[警告: Block diagram 'T700_Dyn' contains disabled library links. Use Model Advisor to find the disabled links in non-library models.  The diagram has been saved but may not contain
+what you intended.
+建议的操作:
+    • You can restore or push the disabled links in the model using the Library Link Tool. - 打开
+] 
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+STAGE1_FAIL
+错误使用 T700_Dyn_repair_compile (第 16 行)
+在模块 'T700_Dyn/OutputStations/Bus Selector' 的'输入端口 1' 上的输入总线中找不到所选信号 'StationData.S1'。
+
+出错 run (第 112 行)
+evalin('caller', strcat(scriptStem, ';'));
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+STAGE2_FAIL
+错误使用 T700_Dyn_repair_compile (第 30 行)
+在模块 'T700_Dyn/OutputStations/Bus Selector' 的'输入端口 1' 上的输入总线中找不到所选信号 'StationData.S1'。
+
+出错 run (第 112 行)
+evalin('caller', strcat(scriptStem, ';'));
+[警告: Block diagram 'T700_Dyn' contains disabled library links. Use Model Advisor to find the disabled links in non-library models.  The diagram has been saved but may not contain
+what you intended.
+建议的操作:
+    • You can restore or push the disabled links in the model using the Library Link Tool. - 打开
+] 

@@ -1,0 +1,42 @@
+Simulink cache: E:\postgraduate\09_Turboshaft\06_simulink\cache
+Simulink code:  E:\postgraduate\09_Turboshaft\06_simulink\cache\codegen
+  包含以下字段的 2x1 struct 数组:
+
+    id
+    message
+    fix
+    line
+    column
+
+  包含以下字段的 2x1 struct 数组:
+
+    id
+    message
+    fix
+    line
+    column
+
+T700 component maps: 8 archived runs, 0 newly added.
+ARCHIVED_RUNS=8
+T700 component maps: 8 archived runs, 0 newly added.
+ARCHIVED trim1_openloop_Undisturbed_261116
+ARCHIVED trim2_openloop_Undisturbed_261116
+ARCHIVED trim3_openloop_Undisturbed_261116
+ARCHIVED trim1_openloop_Wf1%_261116
+ARCHIVED Run 5: T700_Dyn
+ARCHIVED trim1_openloop_Wf-1%_261116
+ARCHIVED trim1_openloop_Qload1%_261116
+ARCHIVED trim1_openloop_Qload-1%_261116
+[警告: UI 组件将不包含在输出中。] 
+[警告: UI 组件将不包含在输出中。] 
+[警告: UI 组件将不包含在输出中。] 
+[警告: UI 组件将不包含在输出中。] 
+[警告: UI 组件将不包含在输出中。] 
+[警告: UI 组件将不包含在输出中。] 
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+PLOT_BUTTON=T700_Dyn/While Iterator Subsystem/Subsystem
+T700 component maps: 8 archived runs, 0 newly added.
+MODEL_UPDATE_PASSED
+COMPONENT_MAP_VERIFICATION_COMPLETE

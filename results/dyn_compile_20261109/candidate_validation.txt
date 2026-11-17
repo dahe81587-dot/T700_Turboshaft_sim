@@ -1,0 +1,48 @@
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+[警告: The file containing block diagram 'T700_Dyn' is shadowed by a file of the same name higher on the MATLAB path. This can cause unexpected behavior. For more information see
+<a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\results\dyn_compile_20261109\candidate\T700_Dyn.mdl.
+The file higher on the MATLAB path is: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\T700_Dyn.mdl] 
+[> 位置：load_system>i_load_system (第 44 行)
+位置: load_system (第 20 行)
+位置: T700_Dyn_finish_candidate (第 7 行)
+位置: run (第 112 行)] 
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+CANDIDATE_COMPILE_PASS
+[警告: Block diagram 'T700_Dyn' contains disabled library links. Use Model Advisor to find the disabled links in non-library models.  The diagram has been saved but may not contain
+what you intended.
+建议的操作:
+    • You can restore or push the disabled links in the model using the Library Link Tool. - 打开
+] 
+[警告: The file containing block diagram 'T700_Dyn' is shadowed by a file of the same name higher on the MATLAB path. This can cause unexpected behavior. For more information see
+<a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\results\dyn_compile_20261109\candidate\T700_Dyn.mdl.
+The file higher on the MATLAB path is: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\T700_Dyn.mdl] 
+[> 位置：T700_Dyn_finish_candidate (第 42 行)
+位置: run (第 112 行)] 
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+CANDIDATE_SMOKE_PASS
+    {'Case02Logs'}
+    {'CompData'  }
+    {'FAR'       }
+    {'FPTData'   }
+    {'GGTData'   }
+    {'Nf_dmd'    }
+    {'P49_calc'  }
+    {'P49_error' }
+    {'P49_target'}
+    {'Plant_Data'}
+    {'S2'        }
+    {'S3'        }
+    {'S41'       }
+    {'S45'       }
+    {'S49'       }
+

@@ -1,0 +1,22 @@
+{
+  "RunCount": 8,
+  "RunNames": [
+    "trim1_openloop_Undisturbed_261116",
+    "trim2_openloop_Undisturbed_261116",
+    "trim3_openloop_Undisturbed_261116",
+    "trim1_openloop_Wf1%_261116",
+    "Run 5: T700_Dyn",
+    "trim1_openloop_Wf-1%_261116",
+    "trim1_openloop_Qload1%_261116",
+    "trim1_openloop_Qload-1%_261116"
+  ],
+  "CoordinateChecksPassed": true,
+  "RepeatedCollectionNoDuplicates": true,
+  "ButtonCallbackPassed": true,
+  "ModelUpdatePassed": true,
+  "SimulationPerformed": false,
+  "WorkspaceLoggingWithoutSDIPassed": true,
+  "CachedPlottingWithoutSDIPassed": true,
+  "AlreadyOpenModelCompatibilityPassed": true,
+  "LegendTogglesBothAxesPassed": true
+}

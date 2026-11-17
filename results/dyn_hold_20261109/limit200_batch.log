@@ -1,0 +1,67 @@
+Simulink cache: E:\postgraduate\09_Turboshaft\06_simulink\cache
+Simulink code:  E:\postgraduate\09_Turboshaft\06_simulink\cache\codegen
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+[警告: Block diagram 'T700_Dyn_Hold' contains disabled library links. Use Model Advisor to find the disabled links in non-library models.  The diagram has been saved but may not
+contain what you intended.
+建议的操作:
+    • You can restore or push the disabled links in the model using the Library Link Tool. - 打开
+] 
+WHILE_LIMIT source=5 test=200
+[警告: Block diagram 'T700_Dyn_Hold' contains disabled library links. Use Model Advisor to find the disabled links in non-library models.  The diagram has been saved but may not
+contain what you intended.
+建议的操作:
+    • You can restore or push the disabled links in the model using the Library Link Tool. - 打开
+] 
+HOLD_RUN_START profile=ballin_trim1 duration=60 step=0.015
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+       Name         Unit       Reference    Initial    Final     MaxAbsError    MaxRelativeError    TailPeakToPeak    TailSlope_per_s    RelativeTolerance    Passed
+    __________    _________    _________    _______    ______    ___________    ________________    ______________    _______________    _________________    ______
+
+    {'Ng'    }    {'rpm'  }      41505       41505      41505     0.0081845        1.9719e-07             0               7.015e-13           0.0001          true  
+    {'Np'    }    {'rpm'  }      21009       21009      21009     0.0083055        3.9533e-07             0              2.1861e-13           0.0001          true  
+    {'W_in'  }    {'lbm/s'}     7.8938      7.8938     7.8938    5.6548e-06        7.1636e-07             0              2.0979e-16           0.0005          true  
+    {'Rline' }    {'-'    }     2.0085      2.0085     2.0085    4.7896e-07        2.3846e-07             0               9.015e-17           0.0005          true  
+    {'PR_GGT'}    {'-'    }     4.6166      4.6166     4.6166    5.5744e-07        1.2075e-07             0             -3.5472e-17           0.0005          true  
+    {'PR_FPT'}    {'-'    }     2.4829      2.4829     2.4829    9.6693e-07        3.8944e-07             0              8.6082e-17           0.0005          true  
+    {'P3'    }    {'psia' }     182.68      182.68     182.68    0.00019304        1.0567e-06             0             -1.3183e-14           0.0005          true  
+    {'T3'    }    {'R'    }       1171        1171       1171     0.0003595          3.07e-07             0             -6.6558e-15           0.0005          true  
+    {'P41'   }    {'psia' }     172.61      172.61     172.61    0.00018239        1.0567e-06             0              3.9606e-15           0.0005          true  
+    {'T41'   }    {'R'    }     2315.4      2315.4     2315.4     0.0005608        2.4221e-07             0              5.6726e-14           0.0005          true  
+    {'P45'   }    {'psia' }     37.388      37.388     37.388    3.9507e-05        1.0567e-06             0              1.2701e-15           0.0005          true  
+    {'T45'   }    {'R'    }     1676.3      1676.3     1676.3    0.00050474         3.011e-07             0              8.8504e-14           0.0005          true  
+    {'P49'   }    {'psia' }     15.058      15.058     15.058    1.5912e-05        1.0567e-06             0              4.2645e-16           0.0005          true  
+    {'T49'   }    {'R'    }     1369.5      1369.5     1369.5    0.00056108         4.097e-07             0              1.7262e-14           0.0005          true  
+
+HOLD_RUN_END passed=1 maxIterations=9
+HOLD_RUN_START profile=ballin_trim1 duration=60 step=0.0075
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+       Name         Unit       Reference    Initial    Final     MaxAbsError    MaxRelativeError    TailPeakToPeak    TailSlope_per_s    RelativeTolerance    Passed
+    __________    _________    _________    _______    ______    ___________    ________________    ______________    _______________    _________________    ______
+
+    {'Ng'    }    {'rpm'  }      41505       41505      41505     0.0081863        1.9724e-07             0             -2.2964e-13           0.0001          true  
+    {'Np'    }    {'rpm'  }      21009       21009      21009     0.0082957        3.9487e-07             0             -2.0371e-12           0.0001          true  
+    {'W_in'  }    {'lbm/s'}     7.8938      7.8938     7.8938    5.6491e-06        7.1565e-07             0              -6.589e-16           0.0005          true  
+    {'Rline' }    {'-'    }     2.0085      2.0085     2.0085    4.7841e-07        2.3819e-07             0             -1.7239e-16           0.0005          true  
+    {'PR_GGT'}    {'-'    }     4.6166      4.6166     4.6166     5.573e-07        1.2072e-07             0             -1.5109e-16           0.0005          true  
+    {'PR_FPT'}    {'-'    }     2.4829      2.4829     2.4829     9.657e-07        3.8894e-07             0             -1.4332e-16           0.0005          true  
+    {'P3'    }    {'psia' }     182.68      182.68     182.68    0.00019295        1.0562e-06             0             -1.3871e-14           0.0005          true  
+    {'T3'    }    {'R'    }       1171        1171       1171    0.00035933        3.0686e-07             0              5.6445e-14           0.0005          true  
+    {'P41'   }    {'psia' }     172.61      172.61     172.61     0.0001823        1.0562e-06             0             -3.8992e-15           0.0005          true  
+    {'T41'   }    {'R'    }     2315.4      2315.4     2315.4    0.00056023        2.4196e-07             0             -2.3901e-14           0.0005          true  
+    {'P45'   }    {'psia' }     37.388      37.388     37.388    3.9489e-05        1.0562e-06             0              -1.476e-15           0.0005          true  
+    {'T45'   }    {'R'    }     1676.3      1676.3     1676.3     0.0005043        3.0084e-07             0             -1.3368e-13           0.0005          true  
+    {'P49'   }    {'psia' }     15.058      15.058     15.058    1.5904e-05        1.0562e-06             0               -1.56e-15           0.0005          true  
+    {'T49'   }    {'R'    }     1369.5      1369.5     1369.5    0.00056054        4.0931e-07             0             -1.5635e-14           0.0005          true  
+
+HOLD_RUN_END passed=1 maxIterations=9
+HOLD_TEST_COMPLETE passed=1
+RESULT_DIR=E:/postgraduate/09_Turboshaft/06_simulink/example/T700_validation/results/dyn_hold_20261109/trim1_limit200

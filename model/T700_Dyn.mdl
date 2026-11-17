@@ -46,8 +46,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2012-12-13T20:39:07Z</dcterms:created>
   <dc:creator>jwchapm2</dc:creator>
   <cp:lastModifiedBy>xie jinao</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2026-11-07T06:15:02Z</dcterms:modified>
-  <cp:revision>19.17</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2026-11-17T07:09:18Z</dcterms:modified>
+  <cp:revision>19.29</cp:revision>
   <cp:version>R2024a</cp:version>
 </cp:coreProperties>
 
@@ -115,15 +115,14 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
 <?xml version="1.0" encoding="utf-8"?>
 <ModelInformation Version="1.0">
   <Model>
-    <P Name="ModelUUID">337a9a6b-77da-45ba-91c2-c69b694c5cdc</P>
-    <P Name="PreLoadFcn">T700_initialize;</P>
+    <P Name="ModelUUID">40772952-b21b-4744-b39b-272b20973eda</P>
+    <P Name="PreLoadFcn">T700_Dyn_initialize;</P>
     <P Name="OverrideScopeRefreshTime">off</P>
-    <P Name="InitFcn">T700_initialize;</P>
     <P Name="LastSavedArchitecture">win64</P>
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:19.17&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:19.29&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">all</P>
@@ -143,7 +142,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
         </Array>
       </Object>
       <Object PropName="InstrumentedSignals" ObjectID="2" ClassName="Simulink.HMI.InstrumentedSignals">
-        <Array PropName="Persistence" Type="Struct" Dimension="9*1">
+        <Array PropName="Persistence" Type="Struct" Dimension="16*1">
           <MATStruct>
             <Field Name="UUID" Class="char">340ef794-0042-466d-8c1e-bb1c0b2610c0</Field>
             <Field Name="BlockPath_" Class="char">While Iterator Subsystem/Mux1</Field>
@@ -324,6 +323,146 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             </Array>
             <Field Name="VisualType_" Class="char"/>
           </MATStruct>
+          <MATStruct>
+            <Field Name="UUID" Class="char">c514e3e3-d605-4997-98cf-52fe8d151355</Field>
+            <Field Name="BlockPath_" Class="char">While Iterator Subsystem</Field>
+            <Field Name="SID_" Class="char">834</Field>
+            <Field Name="SubPath_" Class="char"/>
+            <Field Name="OutputPortIndex_" Class="double">1.0</Field>
+            <Field Name="LogicalPortIndex_" Class="double">0.0</Field>
+            <Field Name="SignalName_" Class="char">GGT_Ndot</Field>
+            <Field Name="SubSysPath_" Class="char"/>
+            <Field Name="Decimation_" Class="double">1.0</Field>
+            <Field Name="MaxPoints_" Class="double">1024.0</Field>
+            <Field Name="TargetBufferedStreaming_" Class="double">0.0</Field>
+            <Field Name="IsFrameBased_" Class="double">0.0</Field>
+            <Field Name="HideInSDI_" Class="double">0.0</Field>
+            <Field Name="DomainType_" Class="char"/>
+            <Array PropName="DomainParams_" Type="Struct" Dimension="1*1">
+              <MATStruct/>
+            </Array>
+            <Field Name="VisualType_" Class="char"/>
+          </MATStruct>
+          <MATStruct>
+            <Field Name="UUID" Class="char">3f4db0b4-557b-4b55-a185-4be3420ce322</Field>
+            <Field Name="BlockPath_" Class="char">While Iterator Subsystem</Field>
+            <Field Name="SID_" Class="char">834</Field>
+            <Field Name="SubPath_" Class="char"/>
+            <Field Name="OutputPortIndex_" Class="double">2.0</Field>
+            <Field Name="LogicalPortIndex_" Class="double">0.0</Field>
+            <Field Name="SignalName_" Class="char">FPT_Ndot</Field>
+            <Field Name="SubSysPath_" Class="char"/>
+            <Field Name="Decimation_" Class="double">1.0</Field>
+            <Field Name="MaxPoints_" Class="double">1024.0</Field>
+            <Field Name="TargetBufferedStreaming_" Class="double">0.0</Field>
+            <Field Name="IsFrameBased_" Class="double">0.0</Field>
+            <Field Name="HideInSDI_" Class="double">0.0</Field>
+            <Field Name="DomainType_" Class="char"/>
+            <Array PropName="DomainParams_" Type="Struct" Dimension="1*1">
+              <MATStruct/>
+            </Array>
+            <Field Name="VisualType_" Class="char"/>
+          </MATStruct>
+          <MATStruct>
+            <Field Name="UUID" Class="char">364e55ed-91e5-493e-8198-341aad828ed8</Field>
+            <Field Name="BlockPath_" Class="char">GGT_integrator</Field>
+            <Field Name="SID_" Class="char">856</Field>
+            <Field Name="SubPath_" Class="char"/>
+            <Field Name="OutputPortIndex_" Class="double">1.0</Field>
+            <Field Name="LogicalPortIndex_" Class="double">0.0</Field>
+            <Field Name="SignalName_" Class="char">GGT_Nmech</Field>
+            <Field Name="SubSysPath_" Class="char"/>
+            <Field Name="Decimation_" Class="double">1.0</Field>
+            <Field Name="MaxPoints_" Class="double">1024.0</Field>
+            <Field Name="TargetBufferedStreaming_" Class="double">0.0</Field>
+            <Field Name="IsFrameBased_" Class="double">0.0</Field>
+            <Field Name="HideInSDI_" Class="double">0.0</Field>
+            <Field Name="DomainType_" Class="char"/>
+            <Array PropName="DomainParams_" Type="Struct" Dimension="1*1">
+              <MATStruct/>
+            </Array>
+            <Field Name="VisualType_" Class="char"/>
+          </MATStruct>
+          <MATStruct>
+            <Field Name="UUID" Class="char">6939d8ac-d30d-40ae-b179-0f493c273fbf</Field>
+            <Field Name="BlockPath_" Class="char">FPT_integrator</Field>
+            <Field Name="SID_" Class="char">858</Field>
+            <Field Name="SubPath_" Class="char"/>
+            <Field Name="OutputPortIndex_" Class="double">1.0</Field>
+            <Field Name="LogicalPortIndex_" Class="double">0.0</Field>
+            <Field Name="SignalName_" Class="char">FPT_Nmech</Field>
+            <Field Name="SubSysPath_" Class="char"/>
+            <Field Name="Decimation_" Class="double">1.0</Field>
+            <Field Name="MaxPoints_" Class="double">1024.0</Field>
+            <Field Name="TargetBufferedStreaming_" Class="double">0.0</Field>
+            <Field Name="IsFrameBased_" Class="double">0.0</Field>
+            <Field Name="HideInSDI_" Class="double">0.0</Field>
+            <Field Name="DomainType_" Class="char"/>
+            <Array PropName="DomainParams_" Type="Struct" Dimension="1*1">
+              <MATStruct/>
+            </Array>
+            <Field Name="VisualType_" Class="char"/>
+          </MATStruct>
+          <MATStruct>
+            <Field Name="UUID" Class="char">a885bc50-3017-43f8-9f2f-61447551b19a</Field>
+            <Field Name="BlockPath_" Class="char">While Iterator Subsystem/Plantmodel/BC_LoadSign</Field>
+            <Field Name="SID_" Class="char">960</Field>
+            <Field Name="SubPath_" Class="char"/>
+            <Field Name="OutputPortIndex_" Class="double">1.0</Field>
+            <Field Name="LogicalPortIndex_" Class="double">0.0</Field>
+            <Field Name="SignalName_" Class="char"/>
+            <Field Name="SubSysPath_" Class="char"/>
+            <Field Name="Decimation_" Class="double">1.0</Field>
+            <Field Name="MaxPoints_" Class="double">1024.0</Field>
+            <Field Name="TargetBufferedStreaming_" Class="double">0.0</Field>
+            <Field Name="IsFrameBased_" Class="double">0.0</Field>
+            <Field Name="HideInSDI_" Class="double">0.0</Field>
+            <Field Name="DomainType_" Class="char"/>
+            <Array PropName="DomainParams_" Type="Struct" Dimension="1*1">
+              <MATStruct/>
+            </Array>
+            <Field Name="VisualType_" Class="char"/>
+          </MATStruct>
+          <MATStruct>
+            <Field Name="UUID" Class="char">2db059b9-047b-4688-9295-a2cb1ec0d79c</Field>
+            <Field Name="BlockPath_" Class="char">While Iterator Subsystem/Plantmodel/From13</Field>
+            <Field Name="SID_" Class="char">1006</Field>
+            <Field Name="SubPath_" Class="char"/>
+            <Field Name="OutputPortIndex_" Class="double">1.0</Field>
+            <Field Name="LogicalPortIndex_" Class="double">0.0</Field>
+            <Field Name="SignalName_" Class="char"/>
+            <Field Name="SubSysPath_" Class="char"/>
+            <Field Name="Decimation_" Class="double">1.0</Field>
+            <Field Name="MaxPoints_" Class="double">1024.0</Field>
+            <Field Name="TargetBufferedStreaming_" Class="double">0.0</Field>
+            <Field Name="IsFrameBased_" Class="double">0.0</Field>
+            <Field Name="HideInSDI_" Class="double">0.0</Field>
+            <Field Name="DomainType_" Class="char"/>
+            <Array PropName="DomainParams_" Type="Struct" Dimension="1*1">
+              <MATStruct/>
+            </Array>
+            <Field Name="VisualType_" Class="char"/>
+          </MATStruct>
+          <MATStruct>
+            <Field Name="UUID" Class="char">facd0445-5176-47b0-8b04-267a6df66c1e</Field>
+            <Field Name="BlockPath_" Class="char">While Iterator Subsystem/Plantmodel/PT_DampingSign</Field>
+            <Field Name="SID_" Class="char">1044</Field>
+            <Field Name="SubPath_" Class="char"/>
+            <Field Name="OutputPortIndex_" Class="double">1.0</Field>
+            <Field Name="LogicalPortIndex_" Class="double">0.0</Field>
+            <Field Name="SignalName_" Class="char">-Qd</Field>
+            <Field Name="SubSysPath_" Class="char"/>
+            <Field Name="Decimation_" Class="double">1.0</Field>
+            <Field Name="MaxPoints_" Class="double">1024.0</Field>
+            <Field Name="TargetBufferedStreaming_" Class="double">0.0</Field>
+            <Field Name="IsFrameBased_" Class="double">0.0</Field>
+            <Field Name="HideInSDI_" Class="double">0.0</Field>
+            <Field Name="DomainType_" Class="char"/>
+            <Array PropName="DomainParams_" Type="Struct" Dimension="1*1">
+              <MATStruct/>
+            </Array>
+            <Field Name="VisualType_" Class="char"/>
+          </MATStruct>
         </Array>
       </Object>
     </SimulationSettings>
@@ -354,10 +493,10 @@ __MWOPC_PART_BEGIN__ /simulink/configSet0.xml
         <P Name="Description"/>
         <P Name="Components" Class="double">[]</P>
         <P Name="StartTime">0.0</P>
-        <P Name="StopTime">MWS.in.SimTime</P>
+        <P Name="StopTime">60</P>
         <P Name="AbsTol">auto</P>
         <P Name="AutoScaleAbsTol">on</P>
-        <P Name="FixedStep">MWS.Solve.T</P>
+        <P Name="FixedStep">0.015</P>
         <P Name="InitialStep">auto</P>
         <P Name="MaxOrder">5</P>
         <P Name="ZcThreshold">auto</P>
@@ -372,14 +511,14 @@ __MWOPC_PART_BEGIN__ /simulink/configSet0.xml
         <P Name="EnableMultiTasking">on</P>
         <P Name="AllowMultiTaskInputOutput">off</P>
         <P Name="ConcurrentTasks">off</P>
-        <P Name="SolverName">FixedStepDiscrete</P>
+        <P Name="SolverName">ode4</P>
         <P Name="SolverJacobianMethodControl">auto</P>
         <P Name="DaesscMode">auto</P>
         <P Name="ShapePreserveControl">DisableAll</P>
         <P Name="ZeroCrossControl">UseLocalSettings</P>
         <P Name="ZeroCrossAlgorithm">Nonadaptive</P>
         <P Name="AlgebraicLoopSolver">TrustRegion</P>
-        <P Name="SolverInfoToggleStatus">off</P>
+        <P Name="SolverInfoToggleStatus">on</P>
         <P Name="IsAutoAppliedInSIP">off</P>
         <P Name="SolverResetMethod">Fast</P>
         <P Name="PositivePriorityOrder">off</P>
@@ -1097,8 +1236,8 @@ __MWOPC_PART_BEGIN__ /simulink/configSet0.xml
       </Object>
     </Array>
     <P Name="Name">Configuration</P>
-    <P Name="CurrentDlgPage">Data Import//Export</P>
-    <P Name="ConfigPrmDlgPosition">[ 2142, 131, 3005, 889 ]</P>
+    <P Name="CurrentDlgPage">Solver</P>
+    <P Name="ConfigPrmDlgPosition">[ 71, 71, 2208, 1198 ]</P>
     <P Name="ExtraOptions"/>
   </Object>
 </ConfigSet>
@@ -1116,7 +1255,36 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
   <P Name="NumRootOutports">0</P>
   <P Name="ParameterArgumentNames"/>
   <P Name="NumModelReferences">0</P>
-  <P Name="NumTestPointedSignals">9</P>
+  <P Name="NumTestPointedSignals">16</P>
+  <TestPointedSignal>
+    <P Name="SignalName">FPT_Nmech</P>
+    <P Name="FullBlockPath">$bdroot/FPT_integrator</P>
+    <P Name="LogSignal">1</P>
+    <P Name="MaxPoints">5000</P>
+    <P Name="Decimation">2</P>
+  </TestPointedSignal>
+  <TestPointedSignal>
+    <P Name="SignalName">GGT_Nmech</P>
+    <P Name="FullBlockPath">$bdroot/GGT_integrator</P>
+    <P Name="LogSignal">1</P>
+    <P Name="MaxPoints">5000</P>
+    <P Name="Decimation">2</P>
+  </TestPointedSignal>
+  <TestPointedSignal>
+    <P Name="SignalName">GGT_Ndot</P>
+    <P Name="FullBlockPath">$bdroot/While Iterator Subsystem</P>
+    <P Name="LogSignal">1</P>
+    <P Name="MaxPoints">5000</P>
+    <P Name="Decimation">2</P>
+  </TestPointedSignal>
+  <TestPointedSignal>
+    <P Name="SignalName">FPT_Ndot</P>
+    <P Name="FullBlockPath">$bdroot/While Iterator Subsystem</P>
+    <P Name="PortIndex">2</P>
+    <P Name="LogSignal">1</P>
+    <P Name="MaxPoints">5000</P>
+    <P Name="Decimation">2</P>
+  </TestPointedSignal>
   <TestPointedSignal>
     <P Name="SignalName"/>
     <P Name="FullBlockPath">$bdroot/While Iterator Subsystem/Compressor</P>
@@ -1167,6 +1335,13 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
     <P Name="Decimation">2</P>
   </TestPointedSignal>
   <TestPointedSignal>
+    <P Name="SignalName">Torque_Qload</P>
+    <P Name="FullBlockPath">$bdroot/While Iterator Subsystem/Plantmodel/BC_LoadSign</P>
+    <P Name="LogSignal">1</P>
+    <P Name="MaxPoints">5000</P>
+    <P Name="Decimation">2</P>
+  </TestPointedSignal>
+  <TestPointedSignal>
     <P Name="SignalName"/>
     <P Name="FullBlockPath">$bdroot/While Iterator Subsystem/Plantmodel/Compressor</P>
     <P Name="PortIndex">5</P>
@@ -1183,6 +1358,13 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
     <P Name="LogSignal">1</P>
     <P Name="UseCustomName">1</P>
     <P Name="LogName">Case02_TorqueT</P>
+    <P Name="MaxPoints">5000</P>
+    <P Name="Decimation">2</P>
+  </TestPointedSignal>
+  <TestPointedSignal>
+    <P Name="SignalName">Torque_FPT</P>
+    <P Name="FullBlockPath">$bdroot/While Iterator Subsystem/Plantmodel/From13</P>
+    <P Name="LogSignal">1</P>
     <P Name="MaxPoints">5000</P>
     <P Name="Decimation">2</P>
   </TestPointedSignal>
@@ -1206,6 +1388,13 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
     <P Name="MaxPoints">5000</P>
     <P Name="Decimation">2</P>
   </TestPointedSignal>
+  <TestPointedSignal>
+    <P Name="SignalName">Torque_Qd</P>
+    <P Name="FullBlockPath">$bdroot/While Iterator Subsystem/Plantmodel/PT_DampingSign</P>
+    <P Name="LogSignal">1</P>
+    <P Name="MaxPoints">5000</P>
+    <P Name="Decimation">2</P>
+  </TestPointedSignal>
   <P Name="NumProvidedFunctions">0</P>
   <P Name="NumRequiredFunctions">0</P>
   <P Name="NumResetEvents">0</P>
@@ -1214,11 +1403,11 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
   <P Name="NumDataStoreReferences">0</P>
   <P Name="PreCompExecutionDomainType">Unset</P>
   <P Name="UseModelRefSolver">0</P>
-  <P Name="SolverName">FixedStepDiscrete</P>
+  <P Name="SolverName">ode4</P>
   <P Name="IsExportFunctionModel">0</P>
   <P Name="SimulinkSubDomainType">Simulink</P>
   <P Name="NumParameterArguments">0</P>
-  <P Name="NumExternalFileReferences">11</P>
+  <P Name="NumExternalFileReferences">10</P>
   <ExternalFileReference>
     <P Name="Reference">Lib_Solve_OuterLoopIntegrator_TMATS/OuterLoop integrator</P>
     <P Name="Path">$bdroot/FPT_integrator</P>
@@ -1229,12 +1418,6 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
     <P Name="Reference">Lib_Solve_OuterLoopIntegrator_TMATS/OuterLoop integrator</P>
     <P Name="Path">$bdroot/GGT_integrator</P>
     <P Name="SID">856</P>
-    <P Name="Type">LIBRARY_BLOCK</P>
-  </ExternalFileReference>
-  <ExternalFileReference>
-    <P Name="Reference">Lib_Cntrl_SimplePIcontroller_TMATS/Simple PI controller</P>
-    <P Name="Path">$bdroot/Simple PI controller</P>
-    <P Name="SID">879</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
@@ -1291,8 +1474,8 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="a73aa21b-3850-454c-9407-32625a5fb8fc">
-    <Interface type="Interface" uuid="f777d972-a923-4db2-bed4-25598245db9f"/>
+  <System type="System" uuid="5bcb45c4-386a-4d61-8d5f-06c5fcbd8ea6">
+    <Interface type="Interface" uuid="6a3e666c-490f-469e-b19b-d04d803b85b7"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/plugins/SimscapeModelParametersPlugin.xml
@@ -1492,6 +1675,7 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
 <sltp_graph version="1.1" packageUris="http://schema.mathworks.com/mf0/sltp_mm/R2023a_202209151115">
   <sltp.mm.core.Context type="sltp.mm.core.Context" uuid="9dcac087-6cef-459b-9ce3-9065d062aec3">
     <priorityDirection>HighNumberLast</priorityDirection>
+    <unusedTaskIds>1</unusedTaskIds>
     <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="4669682b-1139-4682-8174-63de12012ab5"/>
     <editorState type="sltp.mm.core.EditorState" uuid="5561ea56-e15f-4f78-a8a8-367a7d04211d">
       <isSynchronized>true</isSynchronized>
@@ -1503,23 +1687,34 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
       <name>Default</name>
       <priority>-2147483648</priority>
       <subgraph type="sltp.mm.core.Graph" uuid="599e6827-3f4d-4c20-a73b-3e29d61dca07">
-        <tasks type="sltp.mm.core.Task" uuid="6ffcf021-c854-4653-a2af-248b9d2a70a8">
+        <tasks type="sltp.mm.core.Task" uuid="2b6ff479-77fb-4c7f-9d45-3a0663276df0">
+          <baseTask>true</baseTask>
           <context type="sltp.mm.core.Context" uuid="9dcac087-6cef-459b-9ce3-9065d062aec3"/>
           <explicit>false</explicit>
-          <id>1</id>
+          <id>2</id>
           <isTimed>true</isTimed>
-          <name>D1</name>
+          <name>Cont</name>
           <priority>40</priority>
-          <rates type="sltp.mm.core.Rate" uuid="9def66c4-adf4-4dc9-bdc3-83cb3b5c415c">
+          <rates type="sltp.mm.core.Rate" uuid="807c2851-3423-4afa-9854-320ae8d9941e">
+            <annotation>Cont</annotation>
+            <color>255</color>
+            <hasBlocks>true</hasBlocks>
+            <identifier>Continuous00</identifier>
+            <rateIndex>0</rateIndex>
+            <rateSpec type="sltp.mm.core.RateSpec">
+              <period>0.0</period>
+            </rateSpec>
+            <sti>0</sti>
+          </rates>
+          <rates type="sltp.mm.core.Rate" uuid="f822c932-e11e-416f-b813-2d7367d35d8c">
             <annotation>D1</annotation>
             <color>-12240129</color>
             <hasBlocks>true</hasBlocks>
-            <identifier>ClassicPeriodicDiscrete0.0150</identifier>
-            <rateIndex>0</rateIndex>
+            <rateIndex>1</rateIndex>
             <rateSpec type="sltp.mm.core.RateSpec">
               <period>.015</period>
             </rateSpec>
-            <sti>0</sti>
+            <sti>1</sti>
           </rates>
         </tasks>
       </subgraph>
@@ -1530,16 +1725,16 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleEditor.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <sltp_editor version="1.1" packageUris="http://schema.mathworks.com/mf0/DiagramEditor/R2019a_20181107 http://schema.mathworks.com/mf0/SltpSyntax/R2023b_202303220000">
   <diagram.editor.model.Diagram type="diagram.editor.model.Diagram" uuid="e4262ec2-9e68-4335-bffb-cb9d5e0ea789">
-    <entities type="diagram.editor.model.Entity" uuid="5521393d-0cbf-436a-b43a-c8eef7488301">
+    <entities type="diagram.editor.model.Entity" uuid="70737675-94b9-41c1-a393-54b91ebc177c">
       <position>0,0</position>
       <size>0,0,0,0</size>
-      <syntaxElement type="sltp.mm.syntax.Node" uuid="0b4a0bfd-d9ca-440f-96e8-58eff1b26983"/>
-      <title>D1</title>
-      <type>implicit-periodic</type>
-      <subDiagram type="diagram.editor.model.Diagram" uuid="2973ece0-a78b-41b7-9256-c2d3744f8207">
+      <syntaxElement type="sltp.mm.syntax.Node" uuid="246386d9-ba5b-4210-ab0b-9ce113d7bb9c"/>
+      <title>Cont</title>
+      <type>base</type>
+      <subDiagram type="diagram.editor.model.Diagram" uuid="1a68f389-7def-46f8-9709-840bd699ade5">
         <position>0,0</position>
-        <syntaxElement type="sltp.mm.syntax.Graph" uuid="9c8c782f-afcd-4e3e-88f9-186c52a8b11b"/>
-        <title>D1</title>
+        <syntaxElement type="sltp.mm.syntax.Graph" uuid="d2c9a733-69f9-482f-9f3f-72b76e93676c"/>
+        <title>Cont</title>
         <type>graph.Graph</type>
       </subDiagram>
     </entities>
@@ -1549,20 +1744,26 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleEditor.xml
   </diagram.editor.model.Diagram>
   <sltp.mm.syntax.Context type="sltp.mm.syntax.Context" uuid="a310e3d6-93fc-4733-b8be-77b85f1383b6">
     <rootGraph type="sltp.mm.syntax.Graph" uuid="c916af2f-1cb2-4b01-9baa-7becfedb78f6">
-      <children type="sltp.mm.syntax.Node" uuid="0b4a0bfd-d9ca-440f-96e8-58eff1b26983">
+      <children type="sltp.mm.syntax.Node" uuid="246386d9-ba5b-4210-ab0b-9ce113d7bb9c">
         <priority>40</priority>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#000000</color>
+          <hasBlocks>true</hasBlocks>
+          <rate>0</rate>
+          <title>Cont</title>
+        </rates>
         <rates type="sltp.mm.syntax.RateData">
           <color>#ff453a</color>
           <hasBlocks>true</hasBlocks>
           <rate>0.015</rate>
           <title>D1</title>
         </rates>
-        <title>D1</title>
-        <type>implicit-periodic</type>
-        <diagramElement type="diagram.editor.model.Entity" uuid="5521393d-0cbf-436a-b43a-c8eef7488301"/>
-        <subgraph type="sltp.mm.syntax.Graph" uuid="9c8c782f-afcd-4e3e-88f9-186c52a8b11b">
-          <title>D1</title>
-          <diagramElement type="diagram.editor.model.Diagram" uuid="2973ece0-a78b-41b7-9256-c2d3744f8207"/>
+        <title>Cont</title>
+        <type>base</type>
+        <diagramElement type="diagram.editor.model.Entity" uuid="70737675-94b9-41c1-a393-54b91ebc177c"/>
+        <subgraph type="sltp.mm.syntax.Graph" uuid="d2c9a733-69f9-482f-9f3f-72b76e93676c">
+          <title>Cont</title>
+          <diagramElement type="diagram.editor.model.Diagram" uuid="1a68f389-7def-46f8-9709-840bd699ade5"/>
         </subgraph>
       </children>
       <title>Default</title>
@@ -1579,8 +1780,7 @@ __MWOPC_PART_BEGIN__ /simulink/stateflow/_rels/machine.xml.rels
 __MWOPC_PART_BEGIN__ /simulink/stateflow/chart_21.xml
 <?xml version="1.0" encoding="utf-8"?>
 <chart id="21">
-  <P Name="name">While Iterator
-Subsystem/Plantmodel/BleedSchedule/MATLAB Function</P>
+  <P Name="name">While Iterator Subsystem/Plantmodel/BleedSchedule/MATLAB Function</P>
   <P Name="windowPosition">[422 539.941 189 413]</P>
   <P Name="viewLimits">[0 156.75 0 153.75]</P>
   <P Name="screen">[1 1 3600 1200 1.180555555555556]</P>
@@ -1998,8 +2198,7 @@ __MWOPC_PART_BEGIN__ /simulink/stateflow/machine.xml
   </machine>
   <instance id="41">
     <P Name="machine">20</P>
-    <P Name="name">While Iterator
-Subsystem/Plantmodel/BleedSchedule/MATLAB Function</P>
+    <P Name="name">While Iterator Subsystem/Plantmodel/BleedSchedule/MATLAB Function</P>
     <P Name="chart">21</P>
   </instance>
 </Stateflow>
@@ -2047,9 +2246,10 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_758.xml
 __MWOPC_PART_BEGIN__ /simulink/systems/system_834.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[2559, -6, 5121, 1442]</P>
+  <P Name="Location">[-1, -8, 2561, 1393]</P>
+  <P Name="Open">on</P>
   <P Name="ZoomFactor">80</P>
-  <Block BlockType="Inport" Name="FAR" SID="855">
+  <Block BlockType="Inport" Name="Wf" SID="855">
     <P Name="Position">[920, 478, 950, 492]</P>
     <P Name="ZOrder">959</P>
   </Block>
@@ -2057,11 +2257,21 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_834.xml
     <P Name="Position">[920, 518, 950, 532]</P>
     <P Name="ZOrder">954</P>
     <P Name="Port">2</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">GGT_Nmech</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="Inport" Name="FPT_Nmech" SID="851">
     <P Name="Position">[920, 558, 950, 572]</P>
     <P Name="ZOrder">955</P>
     <P Name="Port">3</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">FPT_Nmech</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="Constant" Name="Alt [ft]" SID="711">
     <P Name="Position">[795, -843, 860, -827]</P>
@@ -2252,6 +2462,13 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_834.xml
       </Port>
     </PortProperties>
   </Block>
+  <Block BlockType="Display" Name="Display" SID="1150">
+    <PortCounts in="1"/>
+    <P Name="Position">[2095, 465, 2165, 565]</P>
+    <P Name="ZOrder">1021</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="Decimation">1</P>
+  </Block>
   <Block BlockType="Display" Name="Display2" SID="848">
     <PortCounts in="1"/>
     <P Name="Position">[1400, 667, 1870, 883]</P>
@@ -2435,12 +2652,17 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_834.xml
     <P Name="ZOrder">1007</P>
     <P Name="ForegroundColor">darkGreen</P>
     <P Name="GotoTag">RlinefrmIS</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">Rline</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="From" Name="From18" SID="1135">
     <P Name="Position">[1385, -42, 1550, -18]</P>
     <P Name="ZOrder">1009</P>
     <P Name="ForegroundColor">orange</P>
-    <P Name="GotoTag">FAR</P>
+    <P Name="GotoTag">Wf</P>
   </Block>
   <Block BlockType="From" Name="From19" SID="1136">
     <P Name="Position">[1385, 88, 1550, 112]</P>
@@ -2471,12 +2693,22 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_834.xml
     <P Name="ZOrder">1012</P>
     <P Name="ForegroundColor">red</P>
     <P Name="GotoTag">GGT_Nmech</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">GGT_Nmech</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="From" Name="From22" SID="1139">
     <P Name="Position">[1385, 283, 1550, 307]</P>
     <P Name="ZOrder">1013</P>
     <P Name="ForegroundColor">red</P>
     <P Name="GotoTag">FPT_Nmech</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">FPT_Nmech</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="From" Name="From3" SID="656">
     <P Name="Position">[1875, -817, 1960, -803]</P>
@@ -2506,7 +2738,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_834.xml
     <P Name="GotoTag">Plant_Data</P>
     <PortProperties>
       <Port Type="out" Index="1">
-        <P Name="PropagatedSignals">Ndot</P>
+        <P Name="PropagatedSignals">Output</P>
       </Port>
     </PortProperties>
   </Block>
@@ -2546,11 +2778,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_834.xml
     <P Name="ForegroundColor">green</P>
     <P Name="ShowName">off</P>
     <P Name="GotoTag">NFlowEr_P49</P>
-    <PortProperties>
-      <Port Type="out" Index="1">
-        <P Name="PropagatedSignals">NErr</P>
-      </Port>
-    </PortProperties>
   </Block>
   <Block BlockType="From" Name="From8" SID="727">
     <P Name="Position">[2640, 763, 2770, 777]</P>
@@ -2762,7 +2989,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_834.xml
     <P Name="ZOrder">981</P>
     <P Name="ForegroundColor">orange</P>
     <P Name="ShowName">off</P>
-    <P Name="GotoTag">FAR</P>
+    <P Name="GotoTag">Wf</P>
   </Block>
   <Block BlockType="Goto" Name="Goto25" SID="910">
     <P Name="Position">[1695, -970, 1735, -940]</P>
@@ -2926,13 +3153,13 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_834.xml
       <P Name="RTWMemSecDataInternal">Inherit from model</P>
       <P Name="RTWMemSecDataParameters">Inherit from model</P>
       <P Name="ContentPreviewEnabled">off</P>
-      <P Name="SJac_Per_M">[0.05 0.05 0.05 0.05 0.05 0.05 0.05]</P>
+      <P Name="SJac_Per_M">MWS.Dynamic.J_Calc_Per</P>
       <P Name="SNR_IC_M">MWS.Input.NRICDyn</P>
       <P Name="SNR_DX_M">5</P>
-      <P Name="SNR_Mx_M">100000</P>
-      <P Name="SNR_Mn_M">0.0001</P>
+      <P Name="SNR_Mx_M">MWS.Dynamic.Upper</P>
+      <P Name="SNR_Mn_M">MWS.Dynamic.Lower</P>
       <P Name="SJacobianAttempts_M">20</P>
-      <P Name="Cond_Limits_M">0.0001</P>
+      <P Name="Cond_Limits_M">MWS.Dynamic.C_Lim</P>
     </InstanceData>
   </Block>
   <Block BlockType="Constant" Name="Mach Number [frac]" SID="713">
@@ -3062,6 +3289,26 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_834.xml
         <Prompt>参数</Prompt>
       </DialogControl>
     </Mask>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">NErr</P>
+      </Port>
+      <Port Type="out" Index="2">
+        <P Name="PropagatedSignals">NErr</P>
+      </Port>
+      <Port Type="out" Index="3">
+        <P Name="PropagatedSignals">NErr</P>
+      </Port>
+      <Port Type="out" Index="5">
+        <P Name="PropagatedSignals">Ndot</P>
+      </Port>
+      <Port Type="out" Index="6">
+        <P Name="PropagatedSignals">Ndot</P>
+      </Port>
+      <Port Type="out" Index="7">
+        <P Name="PropagatedSignals">Output</P>
+      </Port>
+    </PortProperties>
     <System Ref="system_952"/>
   </Block>
   <Block BlockType="Product" Name="Product" SID="907">
@@ -3128,7 +3375,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_834.xml
     <P Name="ZOrder">876</P>
     <P Name="BackgroundColor">lightBlue</P>
     <P Name="ShowName">off</P>
-    <P Name="OpenFcn">run(&apos;PlotSSData.m&apos;)</P>
+    <P Name="OpenFcn">T700_PlotComponentMaps;</P>
     <P Name="FontSize">36</P>
     <Mask>
       <Display IconUnits="normalized">
@@ -3171,6 +3418,7 @@ fprintf(&apos;Plot Outputs&apos;)
     <PortCounts in="1" out="1"/>
     <P Name="Position">[2295, 558, 2370, 602]</P>
     <P Name="ZOrder">-3</P>
+    <P Name="MaxIters">200</P>
     <P Name="WhileBlockType">do-while</P>
     <P Name="ShowIterationPort">on</P>
   </Block>
@@ -3584,7 +3832,16 @@ fprintf(&apos;Plot Outputs&apos;)
   <Line>
     <P Name="ZOrder">135</P>
     <P Name="Src">839#out:2</P>
-    <P Name="Dst">654#in:1</P>
+    <P Name="Points">[-52, 0]</P>
+    <Branch>
+      <P Name="ZOrder">341</P>
+      <P Name="Points">[0, -155]</P>
+      <P Name="Dst">1150#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">340</P>
+      <P Name="Dst">654#in:1</P>
+    </Branch>
   </Line>
   <Line>
     <P Name="ZOrder">136</P>
@@ -3791,6 +4048,19 @@ fprintf(&apos;Plot Outputs&apos;)
     <P Name="Src">952#out:7</P>
     <P Name="Dst">1146#in:1</P>
   </Line>
+  <Annotation SID="1151">
+    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body align=&quot;left&quot; style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;left&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New&apos;; font-size:10px;&quot;&gt;MWS = T700_Dyn_initialize(&apos;ballin_trim3&apos;);&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</P>
+    <P Name="Position">[779, 179, 1033, 193]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="Interpreter">rich</P>
+    <P Name="ZOrder">-1</P>
+  </Annotation>
   <Annotation SID="720">
     <P Name="Name">Independents from Iterative Solver</P>
     <P Name="Position">[1809, 590, 1964, 605]</P>
@@ -3879,60 +4149,49 @@ p, li { white-space: pre-wrap; }
 __MWOPC_PART_BEGIN__ /simulink/systems/system_860.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[-2561, -6, -1279, 802]</P>
-  <P Name="ZoomFactor">80</P>
+  <P Name="Location">[-1, -8, 2561, 1393]</P>
+  <P Name="ZoomFactor">125</P>
   <Block BlockType="Inport" Name="DataBus" SID="861">
     <P Name="Position">[60, 378, 90, 392]</P>
     <P Name="ZOrder">610</P>
-  </Block>
-  <Block BlockType="BusSelector" Name="Bus&#xA;Selector" SID="862">
-    <PortCounts in="1" out="10"/>
-    <P Name="Position">[155, 22, 160, 748]</P>
-    <P Name="ZOrder">611</P>
-    <P Name="ShowName">off</P>
-    <P Name="OutputSignals">StationData.S1,StationData.S2,StationData.S3,StationData.S4,StationData.S5,StationData.S6,StationData.S7,Data.CompData,Data.GGTData,Data.FPTData</P>
     <PortProperties>
       <Port Type="out" Index="1">
-        <P Name="Name">&lt;S1&gt;</P>
-      </Port>
-      <Port Type="out" Index="2">
-        <P Name="Name">&lt;S2&gt;</P>
-      </Port>
-      <Port Type="out" Index="3">
-        <P Name="Name">&lt;S3&gt;</P>
-      </Port>
-      <Port Type="out" Index="4">
-        <P Name="Name">&lt;S4&gt;</P>
-      </Port>
-      <Port Type="out" Index="5">
-        <P Name="Name">&lt;S5&gt;</P>
-      </Port>
-      <Port Type="out" Index="6">
-        <P Name="Name">&lt;S6&gt;</P>
-      </Port>
-      <Port Type="out" Index="7">
-        <P Name="Name">&lt;S7&gt;</P>
-      </Port>
-      <Port Type="out" Index="8">
-        <P Name="Name">&lt;CompData&gt;</P>
-      </Port>
-      <Port Type="out" Index="9">
-        <P Name="Name">&lt;GGTData&gt;</P>
-      </Port>
-      <Port Type="out" Index="10">
-        <P Name="Name">&lt;FPTData&gt;</P>
+        <P Name="PropagatedSignals">PlantData</P>
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="ToWorkspace" Name="To Workspace" SID="937">
-    <PortCounts in="1"/>
-    <P Name="Position">[350, 55, 440, 85]</P>
-    <P Name="ZOrder">931</P>
-    <P Name="VariableName">S1</P>
-    <P Name="MaxDataPoints">inf</P>
-    <P Name="SaveFormat">Timeseries</P>
-    <P Name="FixptAsFi">on</P>
-    <P Name="SampleTime">-1</P>
+  <Block BlockType="BusSelector" Name="Bus&#xA;Selector" SID="862">
+    <PortCounts in="1" out="8"/>
+    <P Name="Position">[155, 22, 160, 748]</P>
+    <P Name="ZOrder">611</P>
+    <P Name="ShowName">off</P>
+    <P Name="OutputSignals">StationData.S2,StationData.S3,StationData.S41,StationData.S45,StationData.S49,Data.CompData,Data.GGTData,Data.FPTData</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">&lt;S2&gt;</P>
+      </Port>
+      <Port Type="out" Index="2">
+        <P Name="Name">&lt;S3&gt;</P>
+      </Port>
+      <Port Type="out" Index="3">
+        <P Name="Name">&lt;S41&gt;</P>
+      </Port>
+      <Port Type="out" Index="4">
+        <P Name="Name">&lt;S45&gt;</P>
+      </Port>
+      <Port Type="out" Index="5">
+        <P Name="Name">&lt;S49&gt;</P>
+      </Port>
+      <Port Type="out" Index="6">
+        <P Name="Name">&lt;CompData&gt;</P>
+      </Port>
+      <Port Type="out" Index="7">
+        <P Name="Name">&lt;GGTData&gt;</P>
+      </Port>
+      <Port Type="out" Index="8">
+        <P Name="Name">&lt;FPTData&gt;</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="ToWorkspace" Name="To Workspace1" SID="938">
     <PortCounts in="1"/>
@@ -3958,7 +4217,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_860.xml
     <PortCounts in="1"/>
     <P Name="Position">[350, 265, 440, 295]</P>
     <P Name="ZOrder">934</P>
-    <P Name="VariableName">S4</P>
+    <P Name="VariableName">S41</P>
     <P Name="MaxDataPoints">inf</P>
     <P Name="SaveFormat">Timeseries</P>
     <P Name="FixptAsFi">on</P>
@@ -3968,7 +4227,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_860.xml
     <PortCounts in="1"/>
     <P Name="Position">[350, 335, 440, 365]</P>
     <P Name="ZOrder">935</P>
-    <P Name="VariableName">S5</P>
+    <P Name="VariableName">S45</P>
     <P Name="MaxDataPoints">inf</P>
     <P Name="SaveFormat">Timeseries</P>
     <P Name="FixptAsFi">on</P>
@@ -3978,17 +4237,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_860.xml
     <PortCounts in="1"/>
     <P Name="Position">[350, 405, 440, 435]</P>
     <P Name="ZOrder">936</P>
-    <P Name="VariableName">S6</P>
-    <P Name="MaxDataPoints">inf</P>
-    <P Name="SaveFormat">Timeseries</P>
-    <P Name="FixptAsFi">on</P>
-    <P Name="SampleTime">-1</P>
-  </Block>
-  <Block BlockType="ToWorkspace" Name="To Workspace6" SID="943">
-    <PortCounts in="1"/>
-    <P Name="Position">[350, 475, 440, 505]</P>
-    <P Name="ZOrder">937</P>
-    <P Name="VariableName">S7</P>
+    <P Name="VariableName">S49</P>
     <P Name="MaxDataPoints">inf</P>
     <P Name="SaveFormat">Timeseries</P>
     <P Name="FixptAsFi">on</P>
@@ -4030,73 +4279,66 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_860.xml
     <P Name="Dst">862#in:1</P>
   </Line>
   <Line>
-    <P Name="Name">&lt;S1&gt;</P>
-    <P Name="ZOrder">17</P>
+    <P Name="Name">&lt;S2&gt;</P>
+    <P Name="ZOrder">27</P>
     <P Name="Labels">[0, 0]</P>
     <P Name="Src">862#out:1</P>
-    <P Name="Dst">937#in:1</P>
-  </Line>
-  <Line>
-    <P Name="Name">&lt;S2&gt;</P>
-    <P Name="ZOrder">18</P>
-    <P Name="Labels">[0, 0]</P>
-    <P Name="Src">862#out:2</P>
+    <P Name="Points">[85, 0; 0, 70]</P>
     <P Name="Dst">938#in:1</P>
   </Line>
   <Line>
     <P Name="Name">&lt;S3&gt;</P>
-    <P Name="ZOrder">19</P>
+    <P Name="ZOrder">28</P>
     <P Name="Labels">[0, 0]</P>
-    <P Name="Src">862#out:3</P>
+    <P Name="Src">862#out:2</P>
+    <P Name="Points">[85, 0; 0, 50]</P>
     <P Name="Dst">939#in:1</P>
   </Line>
   <Line>
-    <P Name="Name">&lt;S4&gt;</P>
-    <P Name="ZOrder">20</P>
+    <P Name="Name">&lt;S41&gt;</P>
+    <P Name="ZOrder">29</P>
     <P Name="Labels">[0, 0]</P>
-    <P Name="Src">862#out:4</P>
+    <P Name="Src">862#out:3</P>
+    <P Name="Points">[85, 0; 0, 30]</P>
     <P Name="Dst">940#in:1</P>
   </Line>
   <Line>
-    <P Name="Name">&lt;S5&gt;</P>
-    <P Name="ZOrder">21</P>
+    <P Name="Name">&lt;S45&gt;</P>
+    <P Name="ZOrder">30</P>
     <P Name="Labels">[0, 0]</P>
-    <P Name="Src">862#out:5</P>
+    <P Name="Src">862#out:4</P>
+    <P Name="Points">[85, 0; 0, 10]</P>
     <P Name="Dst">941#in:1</P>
   </Line>
   <Line>
-    <P Name="Name">&lt;S6&gt;</P>
-    <P Name="ZOrder">22</P>
+    <P Name="Name">&lt;S49&gt;</P>
+    <P Name="ZOrder">31</P>
     <P Name="Labels">[0, 0]</P>
-    <P Name="Src">862#out:6</P>
+    <P Name="Src">862#out:5</P>
+    <P Name="Points">[85, 0; 0, -10]</P>
     <P Name="Dst">942#in:1</P>
   </Line>
   <Line>
-    <P Name="Name">&lt;S7&gt;</P>
-    <P Name="ZOrder">23</P>
-    <P Name="Labels">[0, 0]</P>
-    <P Name="Src">862#out:7</P>
-    <P Name="Dst">943#in:1</P>
-  </Line>
-  <Line>
     <P Name="Name">&lt;CompData&gt;</P>
-    <P Name="ZOrder">24</P>
+    <P Name="ZOrder">32</P>
     <P Name="Labels">[0, 0]</P>
-    <P Name="Src">862#out:8</P>
+    <P Name="Src">862#out:6</P>
+    <P Name="Points">[85, 0; 0, 40]</P>
     <P Name="Dst">944#in:1</P>
   </Line>
   <Line>
     <P Name="Name">&lt;GGTData&gt;</P>
-    <P Name="ZOrder">25</P>
+    <P Name="ZOrder">33</P>
     <P Name="Labels">[0, 0]</P>
-    <P Name="Src">862#out:9</P>
+    <P Name="Src">862#out:7</P>
+    <P Name="Points">[85, 0; 0, 20]</P>
     <P Name="Dst">945#in:1</P>
   </Line>
   <Line>
     <P Name="Name">&lt;FPTData&gt;</P>
-    <P Name="ZOrder">26</P>
+    <P Name="ZOrder">34</P>
     <P Name="Labels">[0, 0]</P>
-    <P Name="Src">862#out:10</P>
+    <P Name="Src">862#out:8</P>
     <P Name="Dst">946#in:1</P>
   </Line>
 </System>
@@ -4104,14 +4346,14 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_860.xml
 __MWOPC_PART_BEGIN__ /simulink/systems/system_952.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[2559, -6, 5121, 1442]</P>
-  <P Name="ZoomFactor">60</P>
+  <P Name="Location">[-1, -8, 2561, 1393]</P>
+  <P Name="ZoomFactor">50</P>
   <Block BlockType="Inport" Name="WfrmIS" SID="1089">
     <P Name="Position">[-460, 358, -430, 372]</P>
     <P Name="ZOrder">1040</P>
     <P Name="ForegroundColor">darkGreen</P>
   </Block>
-  <Block BlockType="Inport" Name="FAR" SID="1091">
+  <Block BlockType="Inport" Name="Wf" SID="1091">
     <P Name="Position">[-460, 413, -430, 427]</P>
     <P Name="ZOrder">1042</P>
     <P Name="ForegroundColor">orange</P>
@@ -4145,12 +4387,22 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_952.xml
     <P Name="ZOrder">1051</P>
     <P Name="ForegroundColor">red</P>
     <P Name="Port">6</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">GGT_Nmech</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="Inport" Name="FPT_Nmech" SID="1102">
     <P Name="Position">[-460, 693, -430, 707]</P>
     <P Name="ZOrder">1053</P>
     <P Name="ForegroundColor">red</P>
     <P Name="Port">7</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">FPT_Nmech</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="Constant" Name="Alt [ft]" SID="955">
     <P Name="Position">[-890, -423, -825, -407]</P>
@@ -4228,6 +4480,11 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_952.xml
     <P Name="ShowName">off</P>
     <P Name="HideAutomaticName">off</P>
     <P Name="Gain">-1</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">Torque_Qload</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="Selector" Name="BC_NGc_Select" SID="961">
     <PortCounts in="1" out="1"/>
@@ -4282,10 +4539,24 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_952.xml
     <P Name="Inputs">**</P>
   </Block>
   <Block BlockType="Constant" Name="BC_Qload" SID="968">
-    <P Name="Position">[705, -225, 810, -195]</P>
+    <P Name="Position">[675, -280, 780, -250]</P>
     <P Name="ZOrder">916</P>
     <P Name="BackgroundColor">yellow</P>
+    <P Name="Commented">on</P>
     <P Name="Value">MWS.Boundary.Qload</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">Qload</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Step" Name="BC_Qload02" SID="1154">
+    <P Name="Position">[710, -225, 740, -195]</P>
+    <P Name="ZOrder">1086</P>
+    <P Name="BackgroundColor">yellow</P>
+    <P Name="Time">10</P>
+    <P Name="Before">MWS.Boundary.Qload</P>
+    <P Name="After">0.99*MWS.Boundary.Qload</P>
   </Block>
   <Block BlockType="Constant" Name="BC_T2" SID="969">
     <P Name="Position">[-770, -645, -645, -615]</P>
@@ -4458,6 +4729,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_952.xml
     <PortCounts in="1" out="1"/>
     <P Name="Position">[265, -569, 270, -531]</P>
     <P Name="ZOrder">1058</P>
+    <P Name="Commented">on</P>
     <P Name="OutputSignals">W</P>
     <PortProperties>
       <Port Type="out" Index="1">
@@ -4798,6 +5070,12 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="ForegroundColor">blue</P>
     <P Name="Decimation">1</P>
   </Block>
+  <Block BlockType="Constant" Name="Constant" SID="1153">
+    <P Name="Position">[910, -15, 940, 15]</P>
+    <P Name="ZOrder">1085</P>
+    <P Name="Commented">on</P>
+    <P Name="Value">0</P>
+  </Block>
   <Block BlockType="Display" Name="Display2" SID="996">
     <PortCounts in="1"/>
     <P Name="Position">[-65, -180, 25, -140]</P>
@@ -4890,6 +5168,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
       </Port>
       <Port Type="out" Index="3">
         <P Name="PropagatedSignals">Trq</P>
+        <P Name="DataLogging">on</P>
         <P Name="DataLoggingNameMode">Custom</P>
         <P Name="DataLoggingName">Case02_TorqueT</P>
       </Port>
@@ -4924,6 +5203,11 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="ZOrder">1067</P>
     <P Name="ForegroundColor">green</P>
     <P Name="GotoTag">NFlowEr_GGT</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">NErr</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="From" Name="From11" SID="1005">
     <P Name="Position">[1120, -382, 1205, -368]</P>
@@ -4952,6 +5236,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="GotoTag">FPT_Torque</P>
     <PortProperties>
       <Port Type="out" Index="1">
+        <P Name="Name">Torque_FPT</P>
         <P Name="PropagatedSignals">Trq</P>
       </Port>
     </PortProperties>
@@ -4962,6 +5247,11 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="ForegroundColor">red</P>
     <P Name="ShowName">off</P>
     <P Name="GotoTag">FPT_Nmech</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">FPT_Nmech</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="From" Name="From15" SID="1118">
     <P Name="Position">[-75, 518, 105, 542]</P>
@@ -4974,6 +5264,11 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="ZOrder">1069</P>
     <P Name="ForegroundColor">green</P>
     <P Name="GotoTag">NFlowEr_FPT</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">NErr</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="From" Name="From17" SID="807">
     <P Name="Position">[1030, 298, 1195, 312]</P>
@@ -5055,7 +5350,6 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <PortProperties>
       <Port Type="out" Index="1">
         <P Name="Name">NozNerr</P>
-        <P Name="PropagatedSignals">NErr</P>
       </Port>
     </PortProperties>
   </Block>
@@ -5077,6 +5371,11 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="ForegroundColor">red</P>
     <P Name="ShowName">off</P>
     <P Name="GotoTag">FPT_Nmech</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">FPT_Nmech</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="From" Name="From25" SID="1010">
     <P Name="Position">[1505, -72, 1645, -48]</P>
@@ -5167,6 +5466,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="Position">[235, -509, 275, -481]</P>
     <P Name="ZOrder">1059</P>
     <P Name="ForegroundColor">orange</P>
+    <P Name="Commented">on</P>
     <P Name="GotoTag">FAR</P>
   </Block>
   <Block BlockType="From" Name="From33" SID="1122">
@@ -5174,15 +5474,20 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="ZOrder">1073</P>
     <P Name="ForegroundColor">magenta</P>
     <P Name="GotoTag">GGT_Ndot</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">Ndot</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="From" Name="From34" SID="915">
     <P Name="Position">[1030, 888, 1195, 902]</P>
     <P Name="ZOrder">1033</P>
     <P Name="ForegroundColor">orange</P>
-    <P Name="GotoTag">FAR</P>
+    <P Name="GotoTag">Qload</P>
     <PortProperties>
       <Port Type="out" Index="1">
-        <P Name="Name">FAR</P>
+        <P Name="Name">Qload</P>
       </Port>
     </PortProperties>
   </Block>
@@ -5231,6 +5536,11 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="Position">[-75, 688, 105, 712]</P>
     <P Name="ZOrder">1077</P>
     <P Name="GotoTag">Plant_Data</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">Output</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="From" Name="From4" SID="1012">
     <P Name="Position">[-900, -457, -815, -443]</P>
@@ -5245,6 +5555,17 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="ZOrder">1075</P>
     <P Name="ForegroundColor">magenta</P>
     <P Name="GotoTag">FPT_Ndot</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">Ndot</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="From" Name="From41" SID="1147">
+    <P Name="Position">[290, -434, 330, -406]</P>
+    <P Name="ZOrder">1083</P>
+    <P Name="ForegroundColor">orange</P>
+    <P Name="GotoTag">Wf</P>
   </Block>
   <Block BlockType="From" Name="From5" SID="1013">
     <P Name="Position">[-720, 3, -635, 17]</P>
@@ -5254,7 +5575,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="GotoTag">GGT_Nmech</P>
     <PortProperties>
       <Port Type="out" Index="1">
-        <P Name="PropagatedSignals">Nmech</P>
+        <P Name="PropagatedSignals">GGT_Nmech</P>
       </Port>
     </PortProperties>
   </Block>
@@ -5278,6 +5599,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <PortProperties>
       <Port Type="out" Index="1">
         <P Name="Name">GGTNmech</P>
+        <P Name="PropagatedSignals">GGT_Nmech</P>
       </Port>
     </PortProperties>
   </Block>
@@ -5289,6 +5611,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <PortProperties>
       <Port Type="out" Index="1">
         <P Name="Name">FPTNmech</P>
+        <P Name="PropagatedSignals">FPT_Nmech</P>
       </Port>
     </PortProperties>
   </Block>
@@ -5297,6 +5620,11 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="ZOrder">1064</P>
     <P Name="ForegroundColor">green</P>
     <P Name="GotoTag">NFlowEr_ComptoIS</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">NErr</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="Reference" Name="GGT" SID="1015">
     <PortCounts in="4" out="4"/>
@@ -5339,6 +5667,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
       </Port>
       <Port Type="out" Index="3">
         <P Name="PropagatedSignals">Trq</P>
+        <P Name="DataLogging">on</P>
         <P Name="DataLoggingNameMode">Custom</P>
         <P Name="DataLoggingName">Case02_TorqueT</P>
       </Port>
@@ -5479,6 +5808,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="Position">[415, -535, 455, -505]</P>
     <P Name="ZOrder">1060</P>
     <P Name="ForegroundColor">orange</P>
+    <P Name="Commented">on</P>
     <P Name="GotoTag">Wf</P>
   </Block>
   <Block BlockType="Goto" Name="Goto26" SID="1129">
@@ -5499,6 +5829,11 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="ForegroundColor">blue</P>
     <P Name="GotoTag">S49</P>
   </Block>
+  <Block BlockType="Goto" Name="Goto29" SID="1149">
+    <P Name="Position">[850, -261, 955, -239]</P>
+    <P Name="ZOrder">1084</P>
+    <P Name="GotoTag">Qload</P>
+  </Block>
   <Block BlockType="Goto" Name="Goto3" SID="1090">
     <P Name="Position">[-365, 352, -195, 378]</P>
     <P Name="ZOrder">1041</P>
@@ -5514,7 +5849,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="Position">[-365, 407, -195, 433]</P>
     <P Name="ZOrder">1043</P>
     <P Name="ForegroundColor">orange</P>
-    <P Name="GotoTag">FAR</P>
+    <P Name="GotoTag">Wf</P>
   </Block>
   <Block BlockType="Goto" Name="Goto5" SID="1096">
     <P Name="Position">[-365, 462, -195, 488]</P>
@@ -5749,6 +6084,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
         <P Name="PropagatedSignals">NErr</P>
       </Port>
       <Port Type="out" Index="4">
+        <P Name="DataLogging">on</P>
         <P Name="DataLoggingNameMode">Custom</P>
         <P Name="DataLoggingName">Case02_NozzleData</P>
       </Port>
@@ -5777,7 +6113,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="Gain">-1</P>
     <PortProperties>
       <Port Type="out" Index="1">
-        <P Name="Name">-Qd</P>
+        <P Name="Name">Torque_Qd</P>
       </Port>
     </PortProperties>
   </Block>
@@ -5797,6 +6133,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <PortCounts in="2" out="1"/>
     <P Name="Position">[325, -580, 340, -465]</P>
     <P Name="ZOrder">1057</P>
+    <P Name="Commented">on</P>
   </Block>
   <Block BlockType="Selector" Name="Selector" SID="1047">
     <PortCounts in="1" out="1"/>
@@ -6072,13 +6409,6 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="Dst">972#in:2</P>
   </Line>
   <Line>
-    <P Name="Name">-Qd</P>
-    <P Name="ZOrder">23</P>
-    <P Name="Labels">[1, 1]</P>
-    <P Name="Src">1044#out:1</P>
-    <P Name="Dst">1040#in:3</P>
-  </Line>
-  <Line>
     <P Name="ZOrder">24</P>
     <P Name="Src">957#out:1</P>
     <P Name="Dst">967#in:1</P>
@@ -6103,14 +6433,11 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     </Branch>
   </Line>
   <Line>
+    <P Name="Name">Torque_FPT</P>
     <P Name="ZOrder">29</P>
+    <P Name="Labels">[1, 1]</P>
     <P Name="Src">1006#out:1</P>
     <P Name="Dst">1040#in:2</P>
-  </Line>
-  <Line>
-    <P Name="ZOrder">30</P>
-    <P Name="Src">968#out:1</P>
-    <P Name="Dst">960#in:1</P>
   </Line>
   <Line>
     <P Name="ZOrder">33</P>
@@ -6235,7 +6562,9 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     </Branch>
   </Line>
   <Line>
+    <P Name="Name">Torque_Qload</P>
     <P Name="ZOrder">56</P>
+    <P Name="Labels">[1, 1]</P>
     <P Name="Src">960#out:1</P>
     <P Name="Dst">1040#in:1</P>
   </Line>
@@ -6638,14 +6967,6 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="Dst">892#in:9</P>
   </Line>
   <Line>
-    <P Name="Name">FAR</P>
-    <P Name="ZOrder">137</P>
-    <P Name="Labels">[0, 0]</P>
-    <P Name="Src">915#out:1</P>
-    <P Name="Points">[167, 0; 0, -220]</P>
-    <P Name="Dst">892#in:7</P>
-  </Line>
-  <Line>
     <P Name="Name">CompData</P>
     <P Name="ZOrder">138</P>
     <P Name="Labels">[1, 1]</P>
@@ -6874,16 +7195,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
   <Line>
     <P Name="ZOrder">181</P>
     <P Name="Src">1109#out:1</P>
-    <P Name="Points">[10, 0]</P>
-    <Branch>
-      <P Name="ZOrder">187</P>
-      <P Name="Points">[0, 100]</P>
-      <P Name="Dst">991#in:1</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">186</P>
-      <P Name="Dst">1108#in:1</P>
-    </Branch>
+    <P Name="Dst">1108#in:1</P>
   </Line>
   <Line>
     <P Name="Name">&lt;W&gt;</P>
@@ -6927,6 +7239,58 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="Src">1122#out:1</P>
     <P Name="Dst">1125#in:1</P>
   </Line>
+  <Line>
+    <P Name="ZOrder">383</P>
+    <P Name="Src">1147#out:1</P>
+    <P Name="Dst">991#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">Qload</P>
+    <P Name="ZOrder">387</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">915#out:1</P>
+    <P Name="Points">[172, 0; 0, -220]</P>
+    <P Name="Dst">892#in:7</P>
+  </Line>
+  <Line>
+    <P Name="Name">Torque_Qd</P>
+    <P Name="ZOrder">540</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">1044#out:1</P>
+    <P Name="Dst">1040#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">545</P>
+    <P Name="Src">1154#out:1</P>
+    <P Name="Points">[76, 0]</P>
+    <Branch>
+      <P Name="ZOrder">547</P>
+      <P Name="Points">[0, -40]</P>
+      <P Name="Dst">1149#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">546</P>
+      <P Name="Dst">960#in:1</P>
+    </Branch>
+  </Line>
+  <Annotation SID="1155">
+    <P Name="Name">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body align=&quot;left&quot; style=&quot; font-family:&apos;Helvetica&apos;; font-size:10px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;left&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;模型忽略了 FPT 转速变化对流量、效率的直接影响。&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;因此：&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li align=&quot;left&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;气路耦合可能偏弱&lt;/span&gt;：负载变化导致 FPT 转速变化后，对上游 GGT 的影响可能被低估。&lt;/li&gt;
+&lt;li align=&quot;left&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;动态响应可能有偏差&lt;/span&gt;：转速变化幅度、稳定时间，以及据此得到的控制器参数，准确性尚未确认。&lt;/li&gt;
+&lt;li align=&quot;left&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;偏离设计转速越远，适用性越不确定&lt;/span&gt;：当前数据不能支撑低转速、启动等工况分析。&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</P>
+    <P Name="Position">[1203, -774, 1603, -657]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="HorizontalAlignment">left</P>
+    <P Name="VerticalAlignment">top</P>
+    <P Name="Interpreter">rich</P>
+    <P Name="ZOrder">-1</P>
+  </Annotation>
   <Annotation SID="1068">
     <P Name="Position">[1475, -290, 2501, 97]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -6938,7 +7302,7 @@ MSK_SEC_Enables_Ides_TMATS(&apos;iDesign_M&apos;,[31],&apos;G3&apos;)
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">339</P>
+    <P Name="ZOrder">419</P>
     <P Name="FontSize">12</P>
   </Annotation>
   <Annotation SID="1069">
@@ -6990,7 +7354,7 @@ FARc</P>
     <P Name="ZOrder">-6</P>
   </Annotation>
   <Annotation SID="1074">
-    <P Name="Position">[575, -245, 1345, 21]</P>
+    <P Name="Position">[570, -284, 1345, 21]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
     <P Name="FixedHeight">on</P>
     <P Name="FixedWidth">on</P>
@@ -7000,7 +7364,7 @@ FARc</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">340</P>
+    <P Name="ZOrder">420</P>
     <P Name="FontSize">12</P>
   </Annotation>
   <Annotation SID="1075">
@@ -7014,7 +7378,7 @@ FARc</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">338</P>
+    <P Name="ZOrder">418</P>
     <P Name="FontSize">12</P>
   </Annotation>
   <Annotation SID="1076">
@@ -7125,7 +7489,7 @@ FARc</P>
     <P Name="BackgroundColor">[0.901961, 0.901961, 1.000000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">337</P>
+    <P Name="ZOrder">417</P>
     <P Name="FontSize">12</P>
   </Annotation>
   <Annotation SID="1086">
@@ -8999,11 +9363,10 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_994_542.xml
 __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
-  <P Name="Location">[2559, -6, 5121, 1442]</P>
+  <P Name="Location">[-1, -8, 2561, 1393]</P>
   <P Name="Open">on</P>
-  <P Name="ZoomFactor">150</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">1146</P>
+  <P Name="SIDHighWatermark">1155</P>
   <Block BlockType="ToWorkspace" Name="Data Output" SID="859">
     <PortCounts in="1"/>
     <P Name="Position">[1625, 1865, 1685, 1895]</P>
@@ -9029,12 +9392,18 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       <P Name="ContentPreviewEnabled">off</P>
       <P Name="OL_IC_M">MWS.Input.Np0</P>
     </InstanceData>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">FPT_Nmech</P>
+        <P Name="DataLogging">on</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="ToWorkspace" Name="Fuel to Air Ratio" SID="878">
     <PortCounts in="1"/>
-    <P Name="Position">[370, 1530, 430, 1560]</P>
+    <P Name="Position">[755, 1445, 815, 1475]</P>
     <P Name="ZOrder">826</P>
-    <P Name="VariableName">FAR</P>
+    <P Name="VariableName">Wf_cmd</P>
     <P Name="MaxDataPoints">inf</P>
     <P Name="SaveFormat">Timeseries</P>
     <P Name="SampleTime">-1</P>
@@ -9055,6 +9424,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       <P Name="ContentPreviewEnabled">off</P>
       <P Name="OL_IC_M">MWS.Input.Ng0</P>
     </InstanceData>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">GGT_Nmech</P>
+        <P Name="DataLogging">on</P>
+      </Port>
+    </PortProperties>
   </Block>
   <Block BlockType="SubSystem" Name="OutputStations" SID="860">
     <PortCounts in="1"/>
@@ -9066,6 +9441,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <PortCounts in="2" out="1"/>
     <P Name="Position">[100, 1554, 245, 1621]</P>
     <P Name="ZOrder">825</P>
+    <P Name="Commented">on</P>
     <P Name="LibraryVersion">1.330</P>
     <P Name="SourceBlock">Lib_Cntrl_SimplePIcontroller_TMATS/Simple PI controller</P>
     <P Name="SourceType">T-MATS: Simple PI controller Library Block</P>
@@ -9085,6 +9461,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <PortCounts in="1"/>
     <P Name="Position">[-10, 1520, 50, 1550]</P>
     <P Name="ZOrder">827</P>
+    <P Name="Commented">on</P>
     <P Name="VariableName">Nf_dmd</P>
     <P Name="MaxDataPoints">inf</P>
     <P Name="SaveFormat">Timeseries</P>
@@ -9093,12 +9470,28 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   <Block BlockType="Step" Name="Step1" SID="881">
     <P Name="Position">[-100, 1555, -70, 1585]</P>
     <P Name="ZOrder">828</P>
+    <P Name="Commented">on</P>
     <P Name="Time">15</P>
     <P Name="Before">MWS.Input.LP_Shaft</P>
     <P Name="After">MWS.Input.LP_Shaft -200</P>
     <P Name="SampleTime">0</P>
   </Block>
-  <Block BlockType="SubSystem" Name="While Iterator&#xA;Subsystem" SID="834">
+  <Block BlockType="Constant" Name="Wf_input" SID="1148">
+    <P Name="Position">[140, 1682, 245, 1718]</P>
+    <P Name="ZOrder">829</P>
+    <P Name="Commented">on</P>
+    <P Name="Value">MWS.Boundary.Wf</P>
+  </Block>
+  <Block BlockType="Step" Name="Wf_input02" SID="1152">
+    <P Name="Position">[455, 1575, 485, 1605]</P>
+    <P Name="ZOrder">830</P>
+    <P Name="BackgroundColor">orange</P>
+    <P Name="Time">10</P>
+    <P Name="Before">MWS.Boundary.Wf</P>
+    <P Name="After">MWS.Boundary.Wf</P>
+    <P Name="SampleTime">0</P>
+  </Block>
+  <Block BlockType="SubSystem" Name="While Iterator Subsystem" SID="834">
     <PortCounts in="3" out="3"/>
     <P Name="Position">[755, 1520, 1535, 1950]</P>
     <P Name="ZOrder">819</P>
@@ -9106,32 +9499,55 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="ContentPreviewEnabled">on</P>
     <PortProperties>
       <Port Type="out" Index="1">
+        <P Name="Name">GGT_Ndot</P>
         <P Name="PropagatedSignals">Ndot</P>
       </Port>
       <Port Type="out" Index="2">
+        <P Name="Name">FPT_Ndot</P>
         <P Name="PropagatedSignals">Ndot</P>
+      </Port>
+      <Port Type="out" Index="3">
+        <P Name="Name">PlantData</P>
+        <P Name="PropagatedSignals">Output</P>
       </Port>
     </PortProperties>
     <System Ref="system_834"/>
   </Block>
   <Line>
+    <P Name="Name">GGT_Ndot</P>
     <P Name="ZOrder">458</P>
+    <P Name="Labels">[1, 1]</P>
     <P Name="Src">834#out:1</P>
     <P Name="Dst">856#in:1</P>
   </Line>
   <Line>
+    <P Name="Name">FPT_Ndot</P>
     <P Name="ZOrder">459</P>
+    <P Name="Labels">[1, 1]</P>
     <P Name="Src">834#out:2</P>
     <P Name="Dst">858#in:1</P>
   </Line>
   <Line>
-    <P Name="ZOrder">460</P>
+    <P Name="Name">FPT_Nmech</P>
+    <P Name="ZOrder">482</P>
+    <P Name="Labels">[1, 1]</P>
     <P Name="Src">858#out:1</P>
-    <P Name="Points">[19, 0; 0, 281; -1246, 0; 0, -136]</P>
-    <P Name="Dst">834#in:3</P>
+    <P Name="Points">[78, 0; 0, 281; -1305, 0]</P>
+    <Branch>
+      <P Name="ZOrder">500</P>
+      <P Name="Points">[-563, 0; 0, -411]</P>
+      <P Name="Dst">879#in:2</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">460</P>
+      <P Name="Points">[0, -136]</P>
+      <P Name="Dst">834#in:3</P>
+    </Branch>
   </Line>
   <Line>
+    <P Name="Name">PlantData</P>
     <P Name="ZOrder">468</P>
+    <P Name="Labels">[1, 1]</P>
     <P Name="Src">834#out:3</P>
     <P Name="Points">[47, 0]</P>
     <Branch>
@@ -9159,32 +9575,25 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     </Branch>
   </Line>
   <Line>
-    <P Name="ZOrder">474</P>
-    <P Name="Src">879#out:1</P>
-    <P Name="Points">[85, 0]</P>
-    <Branch>
-      <P Name="ZOrder">476</P>
-      <P Name="Dst">834#in:1</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">473</P>
-      <P Name="Points">[0, -45]</P>
-      <P Name="Dst">878#in:1</P>
-    </Branch>
+    <P Name="Name">GGT_Nmech</P>
+    <P Name="ZOrder">481</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">856#out:1</P>
+    <P Name="Points">[128, 0; 0, 544; -1424, 0; 0, -399]</P>
+    <P Name="Dst">834#in:2</P>
   </Line>
   <Line>
-    <P Name="ZOrder">464</P>
-    <P Name="Src">856#out:1</P>
-    <P Name="Points">[128, 0; 0, 533; -1424, 0]</P>
+    <P Name="ZOrder">516</P>
+    <P Name="Src">1152#out:1</P>
+    <P Name="Points">[91, 0]</P>
     <Branch>
-      <P Name="ZOrder">478</P>
-      <P Name="Points">[-544, 0; 0, -518]</P>
-      <P Name="Dst">879#in:2</P>
+      <P Name="ZOrder">518</P>
+      <P Name="Points">[0, -130]</P>
+      <P Name="Dst">878#in:1</P>
     </Branch>
     <Branch>
-      <P Name="ZOrder">477</P>
-      <P Name="Points">[0, -388]</P>
-      <P Name="Dst">834#in:2</P>
+      <P Name="ZOrder">517</P>
+      <P Name="Dst">834#in:1</P>
     </Branch>
   </Line>
   <Annotation SID="882">
@@ -9222,7 +9631,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
   <Object PropName="BdWindowsInfo" ObjectID="1" ClassName="Simulink.BDWindowsInfo">
     <Object PropName="WindowsInfo" ObjectID="2" ClassName="Simulink.WindowInfo">
       <P Name="IsActive" Class="logical">1</P>
-      <P Name="Location" Class="double">[2559.0, -6.0, 2562.0, 1448.0]</P>
+      <P Name="Location" Class="double">[-1.0, -8.0, 2562.0, 1401.0]</P>
       <Object PropName="ModelBrowserInfo" ObjectID="3" ClassName="Simulink.ModelBrowserInfo">
         <P Name="Visible" Class="logical">1</P>
         <P Name="DockPosition" Class="char">Left</P>
@@ -9236,36 +9645,46 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       </Object>
       <Array PropName="EditorsInfo" Type="Simulink.EditorInfo" Dimension="1*9">
         <Object ObjectID="5">
-          <P Name="IsActive" Class="logical">1</P>
+          <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">1</P>
           <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
           <P Name="LoadSaveID" Class="char">0</P>
-          <P Name="Extents" Class="double">[4823.0, 2453.0]</P>
-          <P Name="ZoomFactor" Class="double">1.5</P>
-          <P Name="Offset" Class="double">[278.63679029611751, 1473.697436718403]</P>
-          <P Name="SceneRectInView" Class="double">[278.63679029611751, 1473.697436718403, 1607.6666666666667, 817.66666666666663]</P>
+          <P Name="Extents" Class="double">[2522.0, 1165.0]</P>
+          <P Name="ZoomFactor" Class="double">1.0</P>
+          <P Name="Offset" Class="double">[-311.51518113870907, 1180.0926487010279]</P>
+          <P Name="SceneRectInView" Class="double">[-311.51518113870907, 1180.0926487010279, 2522.0, 1165.0]</P>
         </Object>
         <Object ObjectID="6">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="IsActive" Class="logical">1</P>
+          <P Name="IsTabbed" Class="logical">1</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
           <P Name="LoadSaveID" Class="char">834</P>
-          <P Name="Extents" Class="double">[4823.0, 2453.0]</P>
+          <P Name="Extents" Class="double">[2299.0, 1165.0]</P>
           <P Name="ZoomFactor" Class="double">0.8</P>
-          <P Name="Offset" Class="double">[709.88851132374657, -563.34969153417342]</P>
-          <P Name="SceneRectInView" Class="double">[709.88851132374657, -563.34969153417342, 3014.375, 1533.125]</P>
+          <P Name="Offset" Class="double">[1455.674184330891, -360.37417659302179]</P>
+          <P Name="SceneRectInView" Class="double">[1455.674184330891, -360.37417659302179, 2873.75, 1456.25]</P>
         </Object>
         <Object ObjectID="7">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
           <P Name="LoadSaveID" Class="char">952</P>
-          <P Name="Extents" Class="double">[4823.0, 2453.0]</P>
-          <P Name="ZoomFactor" Class="double">0.6</P>
-          <P Name="Offset" Class="double">[-1271.4170567796432, -816.74849548600389]</P>
-          <P Name="SceneRectInView" Class="double">[-1271.4170567796432, -816.74849548600389, 4019.166666666667, 2044.1666666666667]</P>
+          <P Name="Extents" Class="double">[2299.0, 1165.0]</P>
+          <P Name="ZoomFactor" Class="double">0.5</P>
+          <P Name="Offset" Class="double">[-441.50525683132696, -985.6354489576114]</P>
+          <P Name="SceneRectInView" Class="double">[-441.50525683132696, -985.6354489576114, 4598.0, 2330.0]</P>
         </Object>
         <Object ObjectID="8">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">860</P>
+          <P Name="Extents" Class="double">[2299.0, 1165.0]</P>
+          <P Name="ZoomFactor" Class="double">1.25</P>
+          <P Name="Offset" Class="double">[-565.32750688139333, -5.1249556874884661]</P>
+          <P Name="SceneRectInView" Class="double">[-565.32750688139333, -5.1249556874884661, 1839.2, 932.0]</P>
+        </Object>
+        <Object ObjectID="9">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -9275,7 +9694,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-153.62339055793996, 234.59472234304781]</P>
           <P Name="SceneRectInView" Class="double">[-153.62339055793996, 234.59472234304781, 1676.6134477825465, 849.61055531390457]</P>
         </Object>
-        <Object ObjectID="9">
+        <Object ObjectID="10">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -9284,16 +9703,6 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="ZoomFactor" Class="double">1.08</P>
           <P Name="Offset" Class="double">[-756.38888888888891, -162.88888888888891]</P>
           <P Name="SceneRectInView" Class="double">[-756.38888888888891, -162.88888888888891, 2128.7037037037035, 1078.7037037037037]</P>
-        </Object>
-        <Object ObjectID="10">
-          <P Name="IsActive" Class="logical">0</P>
-          <P Name="IsTabbed" Class="logical">0</P>
-          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
-          <P Name="LoadSaveID" Class="char">860</P>
-          <P Name="Extents" Class="double">[2263.0, 1173.0]</P>
-          <P Name="ZoomFactor" Class="double">0.8</P>
-          <P Name="Offset" Class="double">[-628.06370175326049, 103.52957331241828]</P>
-          <P Name="SceneRectInView" Class="double">[-628.06370175326049, 103.52957331241828, 1414.375, 733.125]</P>
         </Object>
         <Object ObjectID="11">
           <P Name="IsActive" Class="logical">0</P>
@@ -9328,6 +9737,18 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       </Array>
       <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*2">
         <Object ObjectID="14">
+          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
+          <P Name="ID" Class="char">Property Inspector</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char"/>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Right</P>
+          <P Name="Width" Class="int32">640</P>
+          <P Name="Height" Class="int32">480</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
+        <Object ObjectID="15">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
           <P Name="Visible" Class="logical">0</P>
@@ -9336,28 +9757,16 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
 </P>
           <P Name="Floating" Class="logical">0</P>
           <P Name="DockPosition" Class="char">Left</P>
-          <P Name="Width" Class="int32">320</P>
-          <P Name="Height" Class="int32">240</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
-        <Object ObjectID="15">
-          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
-          <P Name="ID" Class="char">Property Inspector</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Right</P>
-          <P Name="Width" Class="int32">320</P>
-          <P Name="Height" Class="int32">240</P>
+          <P Name="Width" Class="int32">640</P>
+          <P Name="Height" Class="int32">480</P>
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
       </Array>
-      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAADbAAAJ9fwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQBAAAA8gAACfUAAADAAP////sAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAABAAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAA1QA////AAAAAwAAAAAAAAAA/AEAAAAB+/////8AAAAAAP////8AAATuAP///wAAEx0AAAn1AAAAAQAAAAIAAAABAAAAAvwAAAAA</P>
+      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAADbAAAEyvwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQBAAAAeQAABMoAAABjAP////sAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAAAwAACSEAAAF3/AEAAAAC/AAAAN8AAAkhAAAAAAD////6/////wEAAAAA+/////8AAAAAAP////8AAAJ5AP///wAACSEAAATKAAAAAQAAAAIAAAABAAAAAvwAAAAA</P>
       <Array PropName="PersistedApps" Type="Cell" Dimension="0*1"/>
       <P Name="WindowUuid" Class="char">b4c4330b-cff0-4f56-b021-afe49e416c71</P>
     </Object>
-    <P Name="BDUuid" Class="char">4d237d8b-3a61-41d8-8c37-df67521c6f4e</P>
+    <P Name="BDUuid" Class="char">842b5493-ee39-4e42-b2f3-3a5915369d64</P>
   </Object>
 </WindowsInfo>
 

@@ -1,0 +1,33 @@
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+MODEL_FILE: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\T700_Dyn.mdl
+SOLVER: FixedStepDiscrete
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+COMPILE_FAIL
+错误使用 T700_Dyn_compile_probe (第 11 行)
+Error due to multiple causes.
+
+出错 run (第 112 行)
+evalin('caller', strcat(scriptStem, ';'));
+原因:
+    错误使用 T700_Dyn_compile_probe (第 11 行)
+    参数 'Before' 的 'T700_Dyn/Step1' 中的设置无效。
+    
+    出错 run (第 112 行)
+    evalin('caller', strcat(scriptStem, ';'));
+        错误使用 T700_Dyn_compile_probe (第 11 行)
+        The parameter supports only finite values.
+        
+        出错 run (第 112 行)
+        evalin('caller', strcat(scriptStem, ';'));
+    错误使用 T700_Dyn_compile_probe (第 11 行)
+    参数 'After' 的 'T700_Dyn/Step1' 中的设置无效。
+    
+    出错 run (第 112 行)
+    evalin('caller', strcat(scriptStem, ';'));
+        错误使用 T700_Dyn_compile_probe (第 11 行)
+        The parameter supports only finite values.
+        
+        出错 run (第 112 行)
+        evalin('caller', strcat(scriptStem, ';'));

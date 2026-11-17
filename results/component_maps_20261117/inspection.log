@@ -1,0 +1,235 @@
+Simulink cache: E:\postgraduate\09_Turboshaft\06_simulink\cache
+Simulink code:  E:\postgraduate\09_Turboshaft\06_simulink\cache\codegen
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+TMATS_CMAP=C:\Users\xie jinao\AppData\Roaming\MathWorks\MATLAB Add-Ons\Collections\nasa_T-MATS_24b\TMATS_Library\MATLAB_Scripts\+TMATS\PlotCMap.m
+TMATS_TMAP=C:\Users\xie jinao\AppData\Roaming\MathWorks\MATLAB Add-Ons\Collections\nasa_T-MATS_24b\TMATS_Library\MATLAB_Scripts\+TMATS\PlotTMap.m
+TURBINE_MAP_SIZE GGT=[7 86] FPT=[7 117]
+LOADING_SAVED_SESSION
+RUN_COUNT=8
+RUN 4 NAME=trim1_openloop_Undisturbed_261116 SIGNALS=202
+    {'<CompData>.NcMap'              }
+    {'<CompData>.WcMap'              }
+    {'<CompData>.PRMap'              }
+    {'<CompData>.EffMap'             }
+    {'<CompData>.SPRMap'             }
+    {'<GGTData>.NcMap'               }
+    {'<GGTData>.WcMap'               }
+    {'<GGTData>.PRMap'               }
+    {'<GGTData>.EffMap'              }
+    {'<FPTData>.NcMap'               }
+    {'<FPTData>.WcMap'               }
+    {'<FPTData>.PRMap'               }
+    {'<FPTData>.EffMap'              }
+    {'PlantData.Data.CompData.NcMap' }
+    {'PlantData.Data.CompData.WcMap' }
+    {'PlantData.Data.CompData.PRMap' }
+    {'PlantData.Data.CompData.EffMap'}
+    {'PlantData.Data.CompData.SPRMap'}
+    {'PlantData.Data.GGTData.NcMap'  }
+    {'PlantData.Data.GGTData.WcMap'  }
+    {'PlantData.Data.GGTData.PRMap'  }
+    {'PlantData.Data.GGTData.EffMap' }
+    {'PlantData.Data.FPTData.NcMap'  }
+    {'PlantData.Data.FPTData.WcMap'  }
+    {'PlantData.Data.FPTData.PRMap'  }
+    {'PlantData.Data.FPTData.EffMap' }
+
+RUN 8 NAME=trim2_openloop_Undisturbed_261116 SIGNALS=202
+    {'<CompData>.NcMap'              }
+    {'<CompData>.WcMap'              }
+    {'<CompData>.PRMap'              }
+    {'<CompData>.EffMap'             }
+    {'<CompData>.SPRMap'             }
+    {'<GGTData>.NcMap'               }
+    {'<GGTData>.WcMap'               }
+    {'<GGTData>.PRMap'               }
+    {'<GGTData>.EffMap'              }
+    {'<FPTData>.NcMap'               }
+    {'<FPTData>.WcMap'               }
+    {'<FPTData>.PRMap'               }
+    {'<FPTData>.EffMap'              }
+    {'PlantData.Data.CompData.NcMap' }
+    {'PlantData.Data.CompData.WcMap' }
+    {'PlantData.Data.CompData.PRMap' }
+    {'PlantData.Data.CompData.EffMap'}
+    {'PlantData.Data.CompData.SPRMap'}
+    {'PlantData.Data.GGTData.NcMap'  }
+    {'PlantData.Data.GGTData.WcMap'  }
+    {'PlantData.Data.GGTData.PRMap'  }
+    {'PlantData.Data.GGTData.EffMap' }
+    {'PlantData.Data.FPTData.NcMap'  }
+    {'PlantData.Data.FPTData.WcMap'  }
+    {'PlantData.Data.FPTData.PRMap'  }
+    {'PlantData.Data.FPTData.EffMap' }
+
+RUN 11 NAME=trim3_openloop_Undisturbed_261116 SIGNALS=202
+    {'<CompData>.NcMap'              }
+    {'<CompData>.WcMap'              }
+    {'<CompData>.PRMap'              }
+    {'<CompData>.EffMap'             }
+    {'<CompData>.SPRMap'             }
+    {'<GGTData>.NcMap'               }
+    {'<GGTData>.WcMap'               }
+    {'<GGTData>.PRMap'               }
+    {'<GGTData>.EffMap'              }
+    {'<FPTData>.NcMap'               }
+    {'<FPTData>.WcMap'               }
+    {'<FPTData>.PRMap'               }
+    {'<FPTData>.EffMap'              }
+    {'PlantData.Data.CompData.NcMap' }
+    {'PlantData.Data.CompData.WcMap' }
+    {'PlantData.Data.CompData.PRMap' }
+    {'PlantData.Data.CompData.EffMap'}
+    {'PlantData.Data.CompData.SPRMap'}
+    {'PlantData.Data.GGTData.NcMap'  }
+    {'PlantData.Data.GGTData.WcMap'  }
+    {'PlantData.Data.GGTData.PRMap'  }
+    {'PlantData.Data.GGTData.EffMap' }
+    {'PlantData.Data.FPTData.NcMap'  }
+    {'PlantData.Data.FPTData.WcMap'  }
+    {'PlantData.Data.FPTData.PRMap'  }
+    {'PlantData.Data.FPTData.EffMap' }
+
+RUN 14 NAME=trim1_openloop_Wf1%_261116 SIGNALS=202
+    {'<CompData>.NcMap'              }
+    {'<CompData>.WcMap'              }
+    {'<CompData>.PRMap'              }
+    {'<CompData>.EffMap'             }
+    {'<CompData>.SPRMap'             }
+    {'<GGTData>.NcMap'               }
+    {'<GGTData>.WcMap'               }
+    {'<GGTData>.PRMap'               }
+    {'<GGTData>.EffMap'              }
+    {'<FPTData>.NcMap'               }
+    {'<FPTData>.WcMap'               }
+    {'<FPTData>.PRMap'               }
+    {'<FPTData>.EffMap'              }
+    {'PlantData.Data.CompData.NcMap' }
+    {'PlantData.Data.CompData.WcMap' }
+    {'PlantData.Data.CompData.PRMap' }
+    {'PlantData.Data.CompData.EffMap'}
+    {'PlantData.Data.CompData.SPRMap'}
+    {'PlantData.Data.GGTData.NcMap'  }
+    {'PlantData.Data.GGTData.WcMap'  }
+    {'PlantData.Data.GGTData.PRMap'  }
+    {'PlantData.Data.GGTData.EffMap' }
+    {'PlantData.Data.FPTData.NcMap'  }
+    {'PlantData.Data.FPTData.WcMap'  }
+    {'PlantData.Data.FPTData.PRMap'  }
+    {'PlantData.Data.FPTData.EffMap' }
+
+RUN 17 NAME=Run 5: T700_Dyn SIGNALS=203
+    {'<CompData>.NcMap'              }
+    {'<CompData>.WcMap'              }
+    {'<CompData>.PRMap'              }
+    {'<CompData>.EffMap'             }
+    {'<CompData>.SPRMap'             }
+    {'<GGTData>.NcMap'               }
+    {'<GGTData>.WcMap'               }
+    {'<GGTData>.PRMap'               }
+    {'<GGTData>.EffMap'              }
+    {'<FPTData>.NcMap'               }
+    {'<FPTData>.WcMap'               }
+    {'<FPTData>.PRMap'               }
+    {'<FPTData>.EffMap'              }
+    {'PlantData.Data.CompData.NcMap' }
+    {'PlantData.Data.CompData.WcMap' }
+    {'PlantData.Data.CompData.PRMap' }
+    {'PlantData.Data.CompData.EffMap'}
+    {'PlantData.Data.CompData.SPRMap'}
+    {'PlantData.Data.GGTData.NcMap'  }
+    {'PlantData.Data.GGTData.WcMap'  }
+    {'PlantData.Data.GGTData.PRMap'  }
+    {'PlantData.Data.GGTData.EffMap' }
+    {'PlantData.Data.FPTData.NcMap'  }
+    {'PlantData.Data.FPTData.WcMap'  }
+    {'PlantData.Data.FPTData.PRMap'  }
+    {'PlantData.Data.FPTData.EffMap' }
+
+RUN 20 NAME=trim1_openloop_Wf-1%_261116 SIGNALS=204
+    {'<CompData>.NcMap'              }
+    {'<CompData>.WcMap'              }
+    {'<CompData>.PRMap'              }
+    {'<CompData>.EffMap'             }
+    {'<CompData>.SPRMap'             }
+    {'<GGTData>.NcMap'               }
+    {'<GGTData>.WcMap'               }
+    {'<GGTData>.PRMap'               }
+    {'<GGTData>.EffMap'              }
+    {'<FPTData>.NcMap'               }
+    {'<FPTData>.WcMap'               }
+    {'<FPTData>.PRMap'               }
+    {'<FPTData>.EffMap'              }
+    {'PlantData.Data.CompData.NcMap' }
+    {'PlantData.Data.CompData.WcMap' }
+    {'PlantData.Data.CompData.PRMap' }
+    {'PlantData.Data.CompData.EffMap'}
+    {'PlantData.Data.CompData.SPRMap'}
+    {'PlantData.Data.GGTData.NcMap'  }
+    {'PlantData.Data.GGTData.WcMap'  }
+    {'PlantData.Data.GGTData.PRMap'  }
+    {'PlantData.Data.GGTData.EffMap' }
+    {'PlantData.Data.FPTData.NcMap'  }
+    {'PlantData.Data.FPTData.WcMap'  }
+    {'PlantData.Data.FPTData.PRMap'  }
+    {'PlantData.Data.FPTData.EffMap' }
+
+RUN 25 NAME=trim1_openloop_Qload1%_261116 SIGNALS=204
+    {'<CompData>.NcMap'              }
+    {'<CompData>.WcMap'              }
+    {'<CompData>.PRMap'              }
+    {'<CompData>.EffMap'             }
+    {'<CompData>.SPRMap'             }
+    {'<GGTData>.NcMap'               }
+    {'<GGTData>.WcMap'               }
+    {'<GGTData>.PRMap'               }
+    {'<GGTData>.EffMap'              }
+    {'<FPTData>.NcMap'               }
+    {'<FPTData>.WcMap'               }
+    {'<FPTData>.PRMap'               }
+    {'<FPTData>.EffMap'              }
+    {'PlantData.Data.CompData.NcMap' }
+    {'PlantData.Data.CompData.WcMap' }
+    {'PlantData.Data.CompData.PRMap' }
+    {'PlantData.Data.CompData.EffMap'}
+    {'PlantData.Data.CompData.SPRMap'}
+    {'PlantData.Data.GGTData.NcMap'  }
+    {'PlantData.Data.GGTData.WcMap'  }
+    {'PlantData.Data.GGTData.PRMap'  }
+    {'PlantData.Data.GGTData.EffMap' }
+    {'PlantData.Data.FPTData.NcMap'  }
+    {'PlantData.Data.FPTData.WcMap'  }
+    {'PlantData.Data.FPTData.PRMap'  }
+    {'PlantData.Data.FPTData.EffMap' }
+
+RUN 28 NAME=trim1_openloop_Qload-1%_261116 SIGNALS=204
+    {'<CompData>.NcMap'              }
+    {'<CompData>.WcMap'              }
+    {'<CompData>.PRMap'              }
+    {'<CompData>.EffMap'             }
+    {'<CompData>.SPRMap'             }
+    {'<GGTData>.NcMap'               }
+    {'<GGTData>.WcMap'               }
+    {'<GGTData>.PRMap'               }
+    {'<GGTData>.EffMap'              }
+    {'<FPTData>.NcMap'               }
+    {'<FPTData>.WcMap'               }
+    {'<FPTData>.PRMap'               }
+    {'<FPTData>.EffMap'              }
+    {'PlantData.Data.CompData.NcMap' }
+    {'PlantData.Data.CompData.WcMap' }
+    {'PlantData.Data.CompData.PRMap' }
+    {'PlantData.Data.CompData.EffMap'}
+    {'PlantData.Data.CompData.SPRMap'}
+    {'PlantData.Data.GGTData.NcMap'  }
+    {'PlantData.Data.GGTData.WcMap'  }
+    {'PlantData.Data.GGTData.PRMap'  }
+    {'PlantData.Data.GGTData.EffMap' }
+    {'PlantData.Data.FPTData.NcMap'  }
+    {'PlantData.Data.FPTData.WcMap'  }
+    {'PlantData.Data.FPTData.PRMap'  }
+    {'PlantData.Data.FPTData.EffMap' }
+
+INSPECTION_COMPLETE

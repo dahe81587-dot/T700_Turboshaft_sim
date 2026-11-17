@@ -1,0 +1,15 @@
+{
+  "CheckedAt": "2026-11-09 19:17:46",
+  "ModelFile": "E:\\postgraduate\\09_Turboshaft\\06_simulink\\example\\T700_validation\\results\\dyn_compile_20261109\\candidate\\T700_Dyn.mdl",
+  "Profile": "ballin_trim1",
+  "CompilationPassed": true,
+  "SimulationPassed": true,
+  "StopTime_s": 1.5,
+  "FiniteTimeseriesChecked": 191,
+  "NgInitial_rpm": 41504.871658669967,
+  "NgFinal_rpm": 41504.876044402969,
+  "NpInitial_rpm": 21008.696058806247,
+  "NpFinal_rpm": 21008.695280771044,
+  "ExperimentalValidationPerformed": false,
+  "TransientValidationPerformed": false
+}

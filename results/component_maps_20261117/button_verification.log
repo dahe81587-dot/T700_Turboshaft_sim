@@ -1,0 +1,10 @@
+Simulink cache: E:\postgraduate\09_Turboshaft\06_simulink\cache
+Simulink code:  E:\postgraduate\09_Turboshaft\06_simulink\cache\codegen
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+T700 component maps: 8 archived runs, 0 newly added.
+[警告: UI 组件将不包含在输出中。] 
+[警告: UI 组件将不包含在输出中。] 
+[警告: UI 组件将不包含在输出中。] 
+LIVE_BUTTON_COMPATIBILITY_AND_LEGEND_CHECK_COMPLETE

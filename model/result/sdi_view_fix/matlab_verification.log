@@ -1,0 +1,13 @@
+Simulink cache: E:\postgraduate\09_Turboshaft\06_simulink\cache
+Simulink code:  E:\postgraduate\09_Turboshaft\06_simulink\cache\codegen
+PASS cycle=1 file=T700_Dyn_Error.mldatx restored=4/4 runID=4
+PASS cycle=1 file=T700_Dyn_Gas.mldatx restored=8/8 runID=4
+PASS cycle=1 file=T700_Dyn_shaft.mldatx restored=6/6 runID=4
+Saved view with preserved signal-name newlines: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\result\sdi_view_fix\helper_saved_shaft.mldatx
+PASS helper_save_roundtrip=6
+PASS cycle=2 file=T700_Dyn_Error.mldatx restored=4/4 runID=1535
+PASS cycle=2 file=T700_Dyn_Gas.mldatx restored=8/8 runID=1535
+PASS cycle=2 file=T700_Dyn_shaft.mldatx restored=6/6 runID=1535
+Saved view with preserved signal-name newlines: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\result\sdi_view_fix\helper_saved_Error.mldatx
+PASS helper_error_roundtrip=4
+VERIFICATION_COMPLETE passed=1

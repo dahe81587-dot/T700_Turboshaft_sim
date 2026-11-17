@@ -1,0 +1,19 @@
+fresh_Error checked=[0 0 0 0]
+no_block checked=[0 0 0 0]
+no_leaf checked=[0 0 0 0]
+name_only checked=[0 0 0 0]
+no_newline checked=[0 0 0 0]
+entity_newline checked=[1 1 1 1]
+DIRECT checked=1
+错误使用 Simulink.sdi.SignalClient.publishSignalLabels
+参数 1 (rhs1)的输入无效:
+值必须为 'int32 vector'。
+
+出错 Simulink.sdi.internal.SDIAppFramework/onSignalPropChange
+
+出错 Simulink.sdi.Signal>locOnPropChange
+
+出错 Simulink.sdi.Signal/set.Name
+
+出错 sdi_probe2 (第 16 行)
+s=Simulink.sdi.getSignal(ids(1));s.Name='CompNerr';

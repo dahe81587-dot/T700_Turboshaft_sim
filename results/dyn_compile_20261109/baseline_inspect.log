@@ -1,0 +1,132 @@
+Simulink cache: E:\postgraduate\09_Turboshaft\06_simulink\cache
+Simulink code:  E:\postgraduate\09_Turboshaft\06_simulink\cache\codegen
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+    {'report'           }
+    {'runs'             }
+    {'steadySummary'    }
+    {'sourceConsistency'}
+    {'adaptationAudit'  }
+
+VARIABLE report
+    {'CheckerVersion'                      }
+    {'ValidationScope'                     }
+    {'CheckedAt'                           }
+    {'Profile'                             }
+    {'Boundary'                            }
+    {'X'                                   }
+    {'UnknownOrder'                        }
+    {'Stations'                            }
+    {'Diagnostics'                         }
+    {'SolverConverged'                     }
+    {'JacFailed'                           }
+    {'ResidualOrder'                       }
+    {'ResidualSource'                      }
+    {'InputContextMatches'                 }
+    {'DampingApplied'                      }
+    {'Damping'                             }
+    {'PowerBreakdown'                      }
+    {'Exhaust'                             }
+    {'Residual'                            }
+    {'ResidualTolerances'                  }
+    {'ResidualsPassed'                     }
+    {'ShaftNetTorque_lbf_ft'               }
+    {'MapCoordinates'                      }
+    {'MapLimits'                           }
+    {'MapInputsInRange'                    }
+    {'MapRangesPassed'                     }
+    {'BleedScheduleCoordinates'            }
+    {'BleedScheduleInRange'                }
+    {'BleedScheduleMode'                   }
+    {'BleedFractionsAtSolution'            }
+    {'BleedFlowExpected_lbm_s'             }
+    {'TotalBleedLogged_lbm_s'              }
+    {'CoolingReturnLogged_lbm_s'           }
+    {'BleedConfigurationPassed'            }
+    {'MassError_lbm_s'                     }
+    {'MassTolerance_lbm_s'                 }
+    {'MassBalancePassed'                   }
+    {'EnergyComponentOrder'                }
+    {'EnergyError_Btu_s'                   }
+    {'EnergyRelativeError'                 }
+    {'EnergyRelativeTolerance'             }
+    {'EnergyBalancePassed'                 }
+    {'AllChecksPassed'                     }
+    {'ExperimentalValidationPassed'        }
+    {'ExperimentalValidationStatus'        }
+    {'DynamicTrimVerified'                 }
+    {'LowPRCompressorRegionUsed'           }
+    {'FixedParameterReferenceTrim'         }
+    {'SourcePressureRatioAmbiguityResolved'}
+    {'ReferenceComparison'                 }
+    {'ReferenceAccuracyStatus'             }
+    {'FigureComparisonStatus'              }
+    {'PerformancePoint'                    }
+    {'ExhaustChecksPassed'                 }
+    {'ResultFile'                          }
+    {'SteadySummary'                       }
+    {'ResultsSaved'                        }
+
+VARIABLE runs
+    {'ballin_trim1'}
+    {'ballin_trim2'}
+    {'ballin_trim3'}
+
+VARIABLE steadySummary
+VARIABLE sourceConsistency
+    {'Columns'                          }
+    {'Values'                           }
+    {'Interpretation'                   }
+    {'IndependentExperimentalValidation'}
+
+VARIABLE adaptationAudit
+    {'Source'                           }
+    {'ModelOrParameterChangesApplied'   }
+    {'IndependentExperimentalValidation'}
+    {'NativeMEXExecuted'                }
+    {'Bleeds'                           }
+    {'Damping'                          }
+    {'Thermal'                          }
+
+   1.0e+04 *
+
+    0.0008
+    0.0002
+    0.0005
+    0.0002
+    4.1505
+    2.1009
+
+                          P2_psia: 14.6960
+                             T2_R: 518.6700
+                         P49_psia: 15.0715
+                               Wf: 0.1323
+                            Qload: 229
+                           CaseID: 0
+                           TrimID: 1
+         ExhaustFactorAtReference: 1.0256
+                        P49Source: 'A10 at reference Ng; active target is report.Exhaust.P49Target_psia'
+                           Source: 'Ballin_public_reference_trim1'
+                             FAR2: 0
+                           Pacc_g: 0
+                           Pacc_p: 0
+                              Alt: 0
+                            dTamb: 0
+                             Mach: 0
+                          Profile: 'ballin_trim1'
+    OutletTotalPressurePrescribed: 1
+         ExhaustFactorAlsoImposed: 0
+                          P49Role: 'initial_seed_and_reference_audit_only'
+
+      W: 7.1343
+     ht: 283.9481
+     Tt: 1.1710e+03
+     Pt: 182.6841
+    FAR: 0
+
+2026-11-06 09:34:58
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+Lib_Solve_OuterLoopIntegrator_TMATS/OuterLoop integrator
+    OL_IC_M: [1x1 struct]
+

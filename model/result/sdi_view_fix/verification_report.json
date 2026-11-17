@@ -1,0 +1,54 @@
+{
+  "Version": "24.1.0.3303086 (R2024a) Update 9",
+  "Cases": [
+    {
+      "Cycle": 1,
+      "File": "T700_Dyn_Error.mldatx",
+      "RunID": 4,
+      "SignalCount": 4,
+      "Restored": 4,
+      "Passed": true
+    },
+    {
+      "Cycle": 1,
+      "File": "T700_Dyn_Gas.mldatx",
+      "RunID": 4,
+      "SignalCount": 8,
+      "Restored": 8,
+      "Passed": true
+    },
+    {
+      "Cycle": 1,
+      "File": "T700_Dyn_shaft.mldatx",
+      "RunID": 4,
+      "SignalCount": 6,
+      "Restored": 6,
+      "Passed": true
+    },
+    {
+      "Cycle": 2,
+      "File": "T700_Dyn_Error.mldatx",
+      "RunID": 1535,
+      "SignalCount": 4,
+      "Restored": 4,
+      "Passed": true
+    },
+    {
+      "Cycle": 2,
+      "File": "T700_Dyn_Gas.mldatx",
+      "RunID": 1535,
+      "SignalCount": 8,
+      "Restored": 8,
+      "Passed": true
+    },
+    {
+      "Cycle": 2,
+      "File": "T700_Dyn_shaft.mldatx",
+      "RunID": 1535,
+      "SignalCount": 6,
+      "Restored": 6,
+      "Passed": true
+    }
+  ],
+  "Passed": true
+}

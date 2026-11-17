@@ -1,0 +1,71 @@
+Simulink cache: E:\postgraduate\09_Turboshaft\06_simulink\cache
+Simulink code:  E:\postgraduate\09_Turboshaft\06_simulink\cache\codegen
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+[警告: The file containing block diagram 'T700_Dyn' is shadowed by a file of the same name higher on the MATLAB path. This can cause unexpected behavior. For more information see
+<a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\results\dyn_compile_20261109\candidate\T700_Dyn.mdl.
+The file higher on the MATLAB path is: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\T700_Dyn.mdl] 
+[> 位置：load_system>i_load_system (第 44 行)
+位置: load_system (第 20 行)
+位置: T700_Dyn_check (第 6 行)
+位置: T700_Dyn_verify_and_install (第 8 行)
+位置: run (第 112 行)] 
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+[警告: The file containing block diagram 'T700_Dyn' is shadowed by a file of the same name higher on the MATLAB path. This can cause unexpected behavior. For more information see
+<a href="matlab:helpview([docroot '/toolbox/simulink/helptargets.map'], 'shadowing')">"Avoiding Problems with Shadowed Files"</a> in the Simulink documentation.
+
+The file containing the block diagram is: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\results\dyn_compile_20261109\candidate\T700_Dyn.mdl.
+The file higher on the MATLAB path is: E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\model\T700_Dyn.mdl] 
+[> 位置：T700_Dyn_check (第 12 行)
+位置: T700_Dyn_verify_and_install (第 8 行)
+位置: run (第 112 行)] 
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+                          CheckedAt: '2026-11-09 19:17:46'
+                          ModelFile: 'E:\postgraduate\09_Turboshaft\06_simulink\example\T700_validation\results\dyn_compile_20261109\candidate\T700_Dyn.mdl'
+                            Profile: 'ballin_trim1'
+                  CompilationPassed: 1
+                   SimulationPassed: 1
+                         StopTime_s: 1.5000
+            FiniteTimeseriesChecked: 191
+                      NgInitial_rpm: 4.1505e+04
+                        NgFinal_rpm: 4.1505e+04
+                      NpInitial_rpm: 2.1009e+04
+                        NpFinal_rpm: 2.1009e+04
+    ExperimentalValidationPerformed: 0
+       TransientValidationPerformed: 0
+
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+INSTALLED_MODEL_COMPILE_PASS
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+STEADY_MODEL_COMPILE_PASS
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim2。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=39606.277103 rpm，Np0=20877.312431 rpm；尚未完成动态验证。
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim3。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=37703.888130 rpm，Np0=20382.857828 rpm；尚未完成动态验证。
+T700 参数检查通过（ParameterChecksPassed=true）
+T700 工作区已初始化，工况：ballin_trim1。本次仅加载参数，未修改模型或运行仿真。
+T700 动态初值已加载：Ng0=41504.871659 rpm，Np0=21008.696059 rpm；尚未完成动态验证。
+FINAL_CHECKS_PASS
